@@ -4,9 +4,6 @@ weight: 1
 ---
 
 
-
-# PART III CYBERSECURITY APPLICATIONS AND CASE STUDIES  
-
 # CYBERSECURITY AT ORGANIZATIONS: A DELPHI PILOT STUDY OF EXPERT OPINIONS ABOUT POLICY AND PROTECTION
 
 Holly Reitmeier1, Jolanda Tromp2, John Bottoms3
@@ -17,7 +14,7 @@ Abstract Cybercrime is becoming more and more prevalent in today’s society and
 
 continuously discovering new methods to hack systems. Monitoring and maintaining com- puter network security is a complex process that presents unique challenges. If security is not constantly strengthened, cyber threats have the potential to affect millions of systems, all of which share similar vulnerabilities.
 
-The issues surrounding cybercrimes are exponentially different than other types of crimes carried out in society. Therefore, federal law enforcement agencies are faced with the difficult task of generating new approaches to combat it. This chapter explores the concepts of cybercrime and cyber-security, presents the statistical impact it is having on organizations, and demonstrates the importance of an effective cyber-security policy man- ual. It also describes the methodology used for this research, analyzes the data provided by expert testimonials, and introduces the development of a new innovative technologi- cal method \[Blockchain\] to minimize the risk of the cyber world. The analyses cover the extent in which Blockchain applications could help strengthen cyber-security and protect organizations against cyber-attacks, and what kind of research directions are essential for the future.
+The issues surrounding cybercrimes are exponentially different than other types of crimes carried out in society. Therefore, federal law enforcement agencies are faced with the difficult task of generating new approaches to combat it. This chapter explores the concepts of cybercrime and cyber-security, presents the statistical impact it is having on organizations, and demonstrates the importance of an effective cyber-security policy man- ual. It also describes the methodology used for this research, analyzes the data provided by expert testimonials, and introduces the development of a new innovative technologi- cal method [Blockchain] to minimize the risk of the cyber world. The analyses cover the extent in which Blockchain applications could help strengthen cyber-security and protect organizations against cyber-attacks, and what kind of research directions are essential for the future.
 
 Keywords: Cybercrime, Cybersecurity, Cyberworld, Blockchain, Delphi
 
@@ -274,7 +271,7 @@ The Delphi survey was created using the Google Forms online survey application t
 
 In terms of this pilot study, the purpose of the first round is to gain a basic understand- ing of the respondents’ perceptions of cyber-security practices at organizations through multiple quantitative and qualitative survey questions. In the second round, each Delphi participant receives another series of open-ended questions to respond to and is asked to review the key findings summarized by the researcher based on the information provided in the first round. After this is completed, a general inductive approach is taken by the researcher. The objectives are to establish a link between the research proposition and the findings provided the respondents, and to condense the qualitative data into a brief summary format. In response to this challenge, the researcher categorizes and codes the qualitative data to hopefully achieve the desired level of consensus. It is important to note that theoretically the Delphi process can be continuously iterated when it is determined that additional iterations beyond three are needed or valuable, given more time and resources. For this study, three rounds was considered sufficient for a pilot, as proof-of concept, given the time limitations. Below provides the specific information that pertain to each round.
 
-### Delphi Activities \[Iteration Rounds\] of this Pilot Study
+### Delphi Activities [Iteration Rounds] of this Pilot Study
 
 1. Round #1: Initial collection. The first survey is distributed on the same day that the expert agrees to serve as a respondent to the survey. The survey contains a series of varying complexity level questions, each corresponding to the research proposition. The researcher requests permission to collect richer data by means of second round open-ended follow-up questions. After gaining approval, this leads to the second round of the Delphi Method.
 
@@ -477,7 +474,7 @@ Future research is highly recommended to address the question: “How can cyber-
 
 9. Hess, E. D. (2017). Surving the Digital Age: 4 Corporate Transformations. Darden Ideas to Action.
 
-10. How does a data breach affect your business’ reputation?. (2016). \[Blog\] Cyber Experts Blog at National Cybersecurity Institute (NCI).
+10. How does a data breach affect your business’ reputation?. (2016). [Blog] Cyber Experts Blog at National Cybersecurity Institute (NCI).
 
 11. Moeller, R. R. (2013). Executive’s guide to IT governance: improving systems processes with service management, COBIT, and ITIL. John Wiley & Sons.
 

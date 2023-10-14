@@ -44,9 +44,9 @@ Within the scope of this article, we provide an overview of hidden information i
 
 Steganography can be divided into two main groups as follows: Concealing information on LSB (least significant bit): is a method of replacing bits of
 
-information into LSB bits of pixels \[2, 3, 4, 5-12\]. In one pixel of 8-bit color image, the last bit (the 8th bit) is called the LSB bit. So when changing the value of this bit (from 0 to 1 or from 1 to 0) does not affect the visual quality of the image. Information can be hidden on the LSB of coefficients transformation of the pixel such as cosine, wavelet, Fourier
+information into LSB bits of pixels [2, 3, 4, 5-12]. In one pixel of 8-bit color image, the last bit (the 8th bit) is called the LSB bit. So when changing the value of this bit (from 0 to 1 or from 1 to 0) does not affect the visual quality of the image. Information can be hidden on the LSB of coefficients transformation of the pixel such as cosine, wavelet, Fourier
 
-Additional, there are several other methods of concealment in the form of interference jamming SS \[14, 15, 16\], adjusting the quantization factor QIM \[17, 18, 19\]. Reversible hiding information technique (after separation of information we can also restore the orig- inal image) opens a new direction in the field of concealment with a series of reverse hiding techniques are announced \[19, 20, 32\].
+Additional, there are several other methods of concealment in the form of interference jamming SS [14, 15, 16], adjusting the quantization factor QIM [17, 18, 19]. Reversible hiding information technique (after separation of information we can also restore the orig- inal image) opens a new direction in the field of concealment with a series of reverse hiding techniques are announced [19, 20, 32].
 
 Method for evaluating the security of a hidden information schema: We provide some symbols that will be used throughout this report. The symbol C is
 
@@ -75,11 +75,11 @@ This concept is from a theoretical standpoint, very difficult to implement in pr
 Another method for post-processing image after concealing information is based on the Peak signal to noise ratio (PSNR) of the image before and after hiding information. PSNR is a method of assessing safety based on a subjective approach. According to this approach, the human feeling is divided into five different levels. On each level, the quality of the image will be calculated by the PSNR, then depending on the calculated value the image will be judged to belong to which threshold. PSNR quality is mapped to the Mean  
 
  
-Opinion Score (MOS) as Table 4.1. There are many stego schemes \[2-20\] that primarily measure human sensibility based on PSNR.
+Opinion Score (MOS) as Table 4.1. There are many stego schemes [2-20] that primarily measure human sensibility based on PSNR.
 
 Table 2.1 Relationship between PSNR and MOS values
 
-PSNR \[dB\] MOS
+PSNR [dB] MOS
 
 \> 37 5 (Very good)
 
@@ -146,7 +146,7 @@ Many authors have investigated the blind steganalysis for hidden images on LSBs 
 
 ### Blind detection base on LSB
 
-There are many techniques of blinded steganalysis on the LSB, as on \[21-25\] in the spatial domain, on 26 in the frequency domain, on 27 for hidden images using SS technology, on \[28-30\] for QIM factor or on 31 for blinded detecting of JPEG images.
+There are many techniques of blinded steganalysis on the LSB, as on [21-25] in the spatial domain, on 26 in the frequency domain, on 27 for hidden images using SS technology, on [28-30] for QIM factor or on 31 for blinded detecting of JPEG images.
 
 The author has also proposed four blinded steganalysis for hidden images on the LSB, in which: three techniques in the spatial domain as standard deviation analysis 37, the statistical method χ2 a degree of freedom (χ2
 

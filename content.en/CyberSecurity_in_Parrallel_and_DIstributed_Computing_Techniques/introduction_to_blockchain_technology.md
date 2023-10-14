@@ -76,7 +76,7 @@ Since every transaction is time stamped and signed digitally, it highlights non 
 
 ## Characteristics of Blockchain Technology
 
-In the previous sections, we have familiarized ourselves with the concept of blockchain technology. We now know that blockchains serve multiple purposes. The purposed are based on some characteristics, which are presented as follows \[1, 2\].
+In the previous sections, we have familiarized ourselves with the concept of blockchain technology. We now know that blockchains serve multiple purposes. The purposed are based on some characteristics, which are presented as follows [1, 2].
 
 Decentralization- Blockchain technology does not rely on a centralized transaction systems to validate transactions. The involvement of central trusted agencies leads to cost and performance issues. Since a third party is not required for blockchains, they rely on cryptography and algorithms to maintain data consistency in distributed networks.
 
@@ -174,7 +174,7 @@ Figure 6.6 Blockchain generation from unordered transactions
 
 ## Some other case studies for Blockchain Technology
 
-As we know, Bitcoin is the most popular case study of the Blockchain technology. However blockchain technology is not only limited to working of cryptocurrencies. In this section we will take a look at few other use cases of blockchain technology. They are as follows \[2, 7\].
+As we know, Bitcoin is the most popular case study of the Blockchain technology. However blockchain technology is not only limited to working of cryptocurrencies. In this section we will take a look at few other use cases of blockchain technology. They are as follows [2, 7].
 
 Supply Chain Management- The Supply Chain Management (SCM) workflow con- sists of a number of services ranging from manufacturing, storage , production etc. to delivery and consumption. It involves multiple writers and the data that must be stored is huge. When a product moves from one hand to another, the transactions will be recorded, thereby reducing time delays and eliminating human error. Orders, re- ceipts, shipment notifications etc could be tracked down easily. Physical goods could be linked to serial numbers, barcodes, digital tags etc. Moreover information can be shared between vendors and suppliers.
 

@@ -22,7 +22,7 @@ Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et 
  
 ## Introduction
 
-The attentiveness towards cyber security is very important as well as all-time high. Nu- merous countries and enterprises realize that digital danger is a standout amongst the most genuine monetary security challenges they face and which is increment quickly step by step \[1, 2\]. It is found that their economic success also depends on cyber security. Ev- ery day a shadowy group or some unauthorized persons creates digital security dangers and these dangers outcome is found in more on undertakings, causing in loss of private information, certainties, figure, cash and trust. As per Merriam-Webster, digital security is characterized as the arrangement of ”measures taken to ensure a PC or PC framework (as on the web) against unapproved access or assault.” In this manner, obviously every one of the undertakings and organizations must have an inside and out digital security strategy and plan keeping in mind the end goal to convey the most extreme level of wellbeing from digital security dangers which cause to great degree basic circumstances.
+The attentiveness towards cyber security is very important as well as all-time high. Nu- merous countries and enterprises realize that digital danger is a standout amongst the most genuine monetary security challenges they face and which is increment quickly step by step [1, 2]. It is found that their economic success also depends on cyber security. Ev- ery day a shadowy group or some unauthorized persons creates digital security dangers and these dangers outcome is found in more on undertakings, causing in loss of private information, certainties, figure, cash and trust. As per Merriam-Webster, digital security is characterized as the arrangement of ”measures taken to ensure a PC or PC framework (as on the web) against unapproved access or assault.” In this manner, obviously every one of the undertakings and organizations must have an inside and out digital security strategy and plan keeping in mind the end goal to convey the most extreme level of wellbeing from digital security dangers which cause to great degree basic circumstances.
 
 Figure 13.1 Issues of Cyber Security 4
 
@@ -214,7 +214,7 @@ In this chapter we found that the highest rates of hacking industries now a day 
  
 more than 4,000 ransomware attacks have occurred every day. In the year 2017, 74 percent of organizations feel that they are powerless against insider dangers, with seven percent revealing an extraordinary powerlessness.
 
-As artificial intelligence and machine learning impact more and more industries, it’s sure to play a bigger role in cybersecurity \[17-19\]. The machine learning models pre- dict and accurately find the theft. We should also be active about ransomware as well as gracefully supervising data breaches.
+As artificial intelligence and machine learning impact more and more industries, it’s sure to play a bigger role in cybersecurity [17-19]. The machine learning models pre- dict and accurately find the theft. We should also be active about ransomware as well as gracefully supervising data breaches.
 
 **REFERENCES**
 
@@ -236,7 +236,7 @@ As artificial intelligence and machine learning impact more and more industries,
 
 9. Mauw, S., & Oostdijk, M. (2005, December). Foundations of attack trees. In International Conference on Information Security and Cryptology (pp. 186-198). Springer, Berlin, Heidel- berg.
 
-10. The Cisco Secure Services Client: Enabling the Self-Defending Network 2007. \[Online\] Avail- able: www.cisco.com/c/en/us/products/collateral/wireless/secureservices
+10. The Cisco Secure Services Client: Enabling the Self-Defending Network 2007. [Online] Avail- able: www.cisco.com/c/en/us/products/collateral/wireless/secureservices
 
 11. Karp, B. (2016, March). Federal Guidance on the Cybersecurity Information Sharing Act of 2015. In Harvard Law School Forum on Corporate Governance and Financial Regulation.
 
