@@ -10,15 +10,11 @@ Satya Narayan Tripathy, Sisira Kumar Kapat, Susanta Kumar Das
 
 Department of Computer Science, Berhampur University Email: snt.cs@buodisha.edu.in, skk.rs.cs@buodisha.edu.in, skd.cs@buodisha.edu.in
 
-Abstract The Explosive Growth of business, science and other areas has lead to abundant data.
-
+**Abstract** 
+The Explosive Growth of business, science and other areas has lead to abundant data.
 We are drowning in data, but starving for knowledge which has brought into concept called as Data Mining. Data Mining is extraction of implicit, potentially useful and unknown knowledge from huge amount of data. Data mining techniques can very well be used for security applications. The permission to access data may cause threat to privacy and security of user’s information. This chapter deeply focuses on the security aspects of data mining and possible solution techniques. Moreover, we also highlight some privacy issues due to data mining like intrusion detection.
 
-Keywords: Security threat, E-business, Malware analysis, Vulnerability, E-business at- tacks
-
-Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et al. Copyright c© 2018 Scrivener Publishing
-
- 
+**Keywords**: Security threat, E-business, Malware analysis, Vulnerability, E-business at- tacks
  
 ## Introduction to E-Business
 
@@ -60,12 +56,12 @@ The concept of wholesaler and retailer were involved in the third category of bu
 This type of business is not applicable for the modern era where the demand is more with different variety. The customers want speed delivery of goods at their doorstep; low (reliable) price across the globe; good product; good customer support. The manufactur- ers also use much money to sustain in the market because many competitors are there to compete. A complex business process is that, which includes manufacturing the products, market research, promotion of the products in the print and online media etc. The business structure must be scalable, reliable in order to satisfy their customers.
 
 Traditional business structure:
-
+![Alt text](image-13.png)
 Figure 3.1 Product flow structure in traditional business
 
 E-business is the common mode of business now days. Though the traditional approach exists, but in this digitized era, the system of business is almost automated through internet. Customers can choose products online from any business store like Amazon, Flip kart. The price of product is also paid online by using online banking, debit card, credit card etc. Then the product will be shipped to the consumer at the doorstep. The general process of e-business is shown below.  
 
- 
+ ![Alt text](image-14.png)
 Figure 3.2 Communication Cycle in e-business from manufacturer to customer
 
 ## Security issues in e-business
@@ -91,13 +87,13 @@ Vulnerabilities are the weaknesses of the normal functioning of the system that 
 
 Security attach is any action which disrupts the security of information or intellectual prop- erty. Security attacks in the flow of e-business are a major problem. The attacks can be categorized mainly into two categories as Active attach and Passive attack. Passive attacks will not modify the data which is sent from sender to receiver rather it senses the pattern of data which is unsafe in e-business system. Active attack is associated with the modifica- tion of message content. Release of message content, traffic analysis are known as passive attack; whereas masquerade attack, Replay, Message modification and Denial of service attacks are known as active attacks.
 
-Masquerade attack: Masquerade is a type of attack where the attacker pretends to be the authorized user. The attacker sends message as like the authorized user. This process can be used to access all the data from a user, pretending that the attacker is the authorized person.
+**Masquerade attack**: Masquerade is a type of attack where the attacker pretends to be the authorized user. The attacker sends message as like the authorized user. This process can be used to access all the data from a user, pretending that the attacker is the authorized person.
 
-Replay: It involves the repeat or delay of data by the malicious attacker. The detailed study of replay attack and its prevention mechanism is discussed by Malladi et al. 8. This type of attack can access all the personal information of a user, when provided to third party.
+**Replay**: It involves the repeat or delay of data by the malicious attacker. The detailed study of replay attack and its prevention mechanism is discussed by Malladi et al. 8. This type of attack can access all the personal information of a user, when provided to third party.
 
-Message modification: The unauthorized user modifies or reorders the legitimate mes- sage from the sender, and sends it to the receiver as if the sender sent the message directly to the receiver.
+**Message modification**: The unauthorized user modifies or reorders the legitimate mes- sage from the sender, and sends it to the receiver as if the sender sent the message directly to the receiver.
 
-Denial of service: This attack implies the disruption of the particular services resulting abnormal or unusual behavior of the system.
+**Denial of service**: This attack implies the disruption of the particular services resulting abnormal or unusual behavior of the system.
 
 Some other types of attacks are there in network security, which is applicable for the e- business system such as, Spoofing, Fabrication, and Sinkhole etc. which are well explained in 4.
 
@@ -132,16 +128,13 @@ In modern computing it is noticed that, the spyware targets the windows as well 
 
 Spyware is of various types like adware, keylogger, botnet, dialer, spam, rootkit etc. The categorization is done on the basis of the function, of the families. These spywares are used to hamper the e-business system.
 
-Adware: As the name suggest, adware is especially designed for advertising purpose. Adware is not only meant for advertising, it can also be misused to act like a spyware. Very  
+**Adware**: As the name suggest, adware is especially designed for advertising purpose. Adware is not only meant for advertising, it can also be misused to act like a spyware. Very often it pops-up some sort of ads, but at some instances, it can steal the user information like a spyware.
 
- 
-often it pops-up some sort of ads, but at some instances, it can steal the user information like a spyware.
+**Keylogger**: Keylogger is also a dangerous threat in e-business because it has the ca- pability to collect the key strokes entered on the user interface. Hence it can collect the username and password of the user.
 
-Keylogger: Keylogger is also a dangerous threat in e-business because it has the ca- pability to collect the key strokes entered on the user interface. Hence it can collect the username and password of the user.
+**Botnet**: Botnet creates a network of bots, which affect the e-business system in terms of collecting user information and sometimes to use the user resources like memory and processor. Botnets work by means of the remote command of the botmaster.
 
-Botnet: Botnet creates a network of bots, which affect the e-business system in terms of collecting user information and sometimes to use the user resources like memory and processor. Botnets work by means of the remote command of the botmaster.
-
-Internet URL logger and Screen recorder: URL loggers track websites and pages which are visited online by the user. Screen recorder can take a small gray scale image of the screen of user computer, every time it changes. The images then can be stored or transmitted to the third party without the user consent.
+**Internet URL logger and Screen recorder**: URL loggers track websites and pages which are visited online by the user. Screen recorder can take a small gray scale image of the screen of user computer, every time it changes. The images then can be stored or transmitted to the third party without the user consent.
 
 This type of spyware starts, when the system starts. If the user is connected to internet, then it starts recording all the screen shots and store in a specific memory area which is normally unseen to the user. By using this technique, the third party can collect most of the valuable information of the user like, password. Sometime it acts as a keylogger as a user may use onscreen keyboard to type a password. Each time, when the user clicks on the onscreen keyboard, the screen is recorded and sent to the controller of the spyware.
 
@@ -156,35 +149,34 @@ According to the traditional definition of Trojan Horse, it seems to be harmless
 ## Prevention Mechanism
 
 E-business system is a sensitive environment, where the data is given more priority than economy. So some prevention mechanism is needed to handle the security threats, vul- nerabilities and attacks. The prevention mechanisms can be categorized in the view of the user and in the view of security personnel.
-
-Prevention mechanism in the view of user,
-
-Strong firewall configuration must exist.
-
-If possible, data must be encrypted before sending over the network.
-
-Strong password must be used.
-
-Anti-malware software should be used with updated malware definition.
-
-Prevention mechanism in the view of security personnel,  
-
  
-Physical protection of computers.
-
-Network system management and security.
-
-Email control security.
-
-Set proper access control.
-
-Use data encryption techniques.
-
-Digital certificate.
-
-Backup the data, which can be recovered when required.
-
-Wireless communication security must be there.
+- Prevention mechanism in the view of user,
+- 
+- Strong firewall configuration must exist.
+- 
+- If possible, data must be encrypted before sending over the network.
+- 
+- Strong password must be used.
+- 
+- Anti-malware software should be used with updated malware definition.
+- 
+- Prevention mechanism in the view of security personnel,  
+-  
+- Physical protection of computers.
+- 
+- Network system management and security.
+- 
+- Email control security.
+- 
+- Set proper access control.
+- 
+- Use data encryption techniques.
+- 
+- Digital certificate.
+- 
+- Backup the data, which can be recovered when required.
+- 
+- Wireless communication security must be there.
 
 ## Conclusion
 
