@@ -11,15 +11,10 @@ Ho Thi Huong Thom, Nguyen Kim Anh
 
 Faculty of information technology, Vietnam Maritime University Email: thomhth@vimaru.edu.vn, kimanhnguyen@vimaru.edu.vn
 
-Abstract Steganography is the art and science of concealed communication. The basic concept is
+**Abstract** 
+Steganography is the art and science of concealed communication. The basic concept is to hide the very existence of the secret message. Digital object such as a text, image, video, or audio can be used as the cover data. Steganalysis is the counterpart of steganography, the goal of the steganalysis is to detect the hidden message, equivalently, to discriminate the stego object from the non-stego-object. In addition, it has the scientific significance of enhancing the hidden ability of hidden techniques. In this chapter, we will present an overview of the research and solutions for the problem of hidden image detection. Provides an overview and orientation for the hidden image detection problem.
 
-to hide the very existence of the secret message. Digital object such as a text, image, video, or audio can be used as the cover data. Steganalysis is the counterpart of steganography, the goal of the steganalysis is to detect the hidden message, equivalently, to discriminate the stego object from the non-stego-object. In addition, it has the scientific significance of enhancing the hidden ability of hidden techniques. In this chapter, we will present an overview of the research and solutions for the problem of hidden image detection. Provides an overview and orientation for the hidden image detection problem.
-
-Keywords: Cover image, stego image, hiding information, steganography, steganalysis, watermarking.
-
-Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et al. Copyright c© 2018 Scrivener Publishing
-
- 
+**Keywords**: Cover image, stego image, hiding information, steganography, steganalysis, watermarking.
  
 ## Introduction
 
@@ -27,9 +22,9 @@ Hiding information refers to the problem of hiding important information into ot
 
 Nowadays, as the science and technology are rapidly developing and the internet is growing globally, the human also digitize hidden information area for modern life. They are divided into two main groups for the following purposes:
 
-Steganography: is a form of hiding some confidential information on another object for the purpose of exchanging them between allies.
+- Steganography: is a form of hiding some confidential information on another object for the purpose of exchanging them between allies.
 
-Watermarking: is a form of making an important information onto an object to protect the object that is marked as license, copyright, fake, etc.
+- Watermarking: is a form of making an important information onto an object to protect the object that is marked as license, copyright, fake, etc.
 
 In principle, hiding information in multimedia data or digital image data is not much different. But as hiding information in the picture is easier, hide more information and also the picture is the digital object used quite popular on the Internet today, so the technique of hiding information in images accounted for the largest proportion of multimedia data types, with 56.1% of images, 14.8% of audio and 2.8% of video 1.
 
@@ -42,19 +37,15 @@ Within the scope of this article, we provide an overview of hidden information i
  
 ## Steganography
 
-Steganography can be divided into two main groups as follows: Concealing information on LSB (least significant bit): is a method of replacing bits of
-
-information into LSB bits of pixels [2, 3, 4, 5-12]. In one pixel of 8-bit color image, the last bit (the 8th bit) is called the LSB bit. So when changing the value of this bit (from 0 to 1 or from 1 to 0) does not affect the visual quality of the image. Information can be hidden on the LSB of coefficients transformation of the pixel such as cosine, wavelet, Fourier
+Steganography can be divided into two main groups as follows: Concealing information on LSB (least significant bit): is a method of replacing bits of information into LSB bits of pixels [2, 3, 4, 5-12]. In one pixel of 8-bit color image, the last bit (the 8th bit) is called the LSB bit. So when changing the value of this bit (from 0 to 1 or from 1 to 0) does not affect the visual quality of the image. Information can be hidden on the LSB of coefficients transformation of the pixel such as cosine, wavelet, Fourier
 
 Additional, there are several other methods of concealment in the form of interference jamming SS [14, 15, 16], adjusting the quantization factor QIM [17, 18, 19]. Reversible hiding information technique (after separation of information we can also restore the orig- inal image) opens a new direction in the field of concealment with a series of reverse hiding techniques are announced [19, 20, 32].
 
-Method for evaluating the security of a hidden information schema: We provide some symbols that will be used throughout this report. The symbol C is
+Method for evaluating the security of a hidden information schema: We provide some symbols that will be used throughout this report. The symbol C is the set of all original images C, M is the set of cryptographic information M , K is the set of hidden keys K, Sis the set of all images stego S (hidden image). A hidden schema (algorithm) is a pair of (SE , SX), with
 
-the set of all original images C, M is the set of cryptographic information M , K is the set of hidden keys K, Sis the set of all images stego S (hidden image). A hidden schema (algorithm) is a pair of (SE , SX), with
+- SE : C ×M×K → S as the information embedding function.
 
-SE : C ×M×K → S as the information embedding function.
-
-SX : SK →M is the information separation function.
+- SX : SK →M is the information separation function.
 
 SE function creates an object S belong to Sfrom each C ∈ C, M ∈ M and K ∈ K while SX function separates M from S by key K.
 
@@ -78,18 +69,7 @@ Another method for post-processing image after concealing information is based o
 Opinion Score (MOS) as Table 4.1. There are many stego schemes [2-20] that primarily measure human sensibility based on PSNR.
 
 Table 2.1 Relationship between PSNR and MOS values
-
-PSNR [dB] MOS
-
-\> 37 5 (Very good)
-
-31 -37 4 (Good)
-
-25 31 3 (Medium)
-
-20 25 2 (Bad)
-
-< 20 1 (Very bad)
+![Alt text](image-11.png)
 
 ## Steganalysis
 
@@ -97,17 +77,17 @@ Steganalysis can be defined as a classification problem based on statistical hyp
 
 If we do not have any information about the hidden schema, the stega method is called blind steganalysis. The classification problem can be expressed based on the composite hypothesis test as:
 
-H0: X is derived from the probability distribution function PS .
+- H0: X is derived from the probability distribution function PS .
 
-H1: X is not derived from the probability distribution function PS .
+- H1: X is not derived from the probability distribution function PS .
 
 With X is the sample image data to be considered. In the case of knowing information about the hidden schema, the stega method is called
 
 constraint steganalysis. Assuming we know the probability distribution of the PC , the hidden schema (SE , SX) and the distribution of the information of M, we can calculate the PS . From this we can provide a method of detection based on a simple hypothesis test as:
 
-H0: X has a probability distribution of PS .
+- H0: X has a probability distribution of PS .
 
-H1: X has probability distribution of PC .
+- H1: X has probability distribution of PC .
 
 To solve the statistical hypothesis test, we need to find a conditional domain or features to classify so that the error rate is minimal.
 
@@ -138,9 +118,9 @@ A detector is acceptable if satisfied (3.4)
  
 There are no division algorithms minimizes both error types. Steganalysis’s research methods focus on two main directions as mentioned above:
 
-The first direction tries to build blind detection for any steganography techniques.
+- The first direction tries to build blind detection for any steganography techniques.
 
-The second direction tries to detect stego images when knowing the steganography technique.
+- The second direction tries to detect stego images when knowing the steganography technique.
 
 Many authors have investigated the blind steganalysis for hidden images on LSBs and constraint steganalysis for some known hiding techniques. Now we will summarize the published research in two above directions.
 
@@ -148,43 +128,29 @@ Many authors have investigated the blind steganalysis for hidden images on LSBs 
 
 There are many techniques of blinded steganalysis on the LSB, as on [21-25] in the spatial domain, on 26 in the frequency domain, on 27 for hidden images using SS technology, on [28-30] for QIM factor or on 31 for blinded detecting of JPEG images.
 
-The author has also proposed four blinded steganalysis for hidden images on the LSB, in which: three techniques in the spatial domain as standard deviation analysis 37, the statistical method χ2 a degree of freedom (χ2
+The author has also proposed four blinded steganalysis for hidden images on the LSB, in which: three techniques in the spatial domain as standard deviation analysis 37, the statistical method χ2 a degree of freedom (χ21) 34, the estimating method of information concealed in the image 38; a technique in the frequency domain by gray scale analysis 33. Specific methods are as follows:
 
-1) 34, the estimating method of information concealed in the image 38; a technique in the frequency domain by gray scale analysis 33. Specific methods are as follows:
+- **The standard deviation analysis**: This method is supposed to better detect than χ2 statistics with n degrees of freedom of Westfeld et al. 24. Westfeld proposed a method by which: with an 8-bit gray-scale digital image, to test an image with hidden LSB, they make a frequency statistic of pixels into the vector C = {ci, i = 0...256} where ci is the frequency of the pixel with the value i in the image. They found that for hidden image, the pairs of values c2j , c2j+1(j = 0...127) (called the PoV pair - Pair of Values) in vector C has approximate value while this rarely happens in the original image. Thus, Westfeld uses the statistical method χ2 with n − 1 degrees of freedom to classify (n is defined by the number of PoV pairs with non-zero values). This method is only effective when the number of hidden messages is large and the order of hidden in the raster direction (from left to right, top to bottom), the opposite is not. Thus, to improve the above problem, on the thesis we proposed the method of steganalysis by mapping frequency of the image pixels into two-dimensional matrix S = {sij , i = 0...26, j = 0...9}, with sij is the frequency of the pixel that has the value i × 10 + j in the image. Then, using standard deviation analysis to classify by the thresholds t0 (based on the ”standard deviation” table) will result in better detection in the case hidden with a small amount of information and scattered hidden across the pixels.
 
-The standard deviation analysis: This method is supposed to better detect than χ2
+- **The statistic of χ2 a degree of freedom**: It is better detection method of hidden information than standard deviation. From the observation on an sample image set (600 images) with a large amount of hidden message (from 50% LSB of the image), we find that the steganography technique on LSB will change primarily on pixels has a high frequency, so it makes the pixel frequency value here approximately equal. So also by the statistical method of the frequency of the pixel into the two-dimensional matrix S = {sij , i = 0, ..., 26, j = 0, ..., 9} as above, find the row at the largest sij of S, then use χ2 a degree of freedom for pairs of sum even and sum odd values at the  highest value row to classify by the threshold t0 and found in the statistics table χ2 the probability α of the specific Type I error.
 
-statistics with n degrees of freedom of Westfeld et al. 24. Westfeld proposed a method by which: with an 8-bit gray-scale digital image, to test an image with hidden LSB, they make a frequency statistic of pixels into the vector C = {ci, i = 0...256} where ci is the frequency of the pixel with the value i in the image. They found that for hidden image, the pairs of values c2j , c2j+1(j = 0...127) (called the PoV pair - Pair of Values) in vector C has approximate value while this rarely happens in the original image. Thus, Westfeld uses the statistical method χ2 with n − 1 degrees of freedom to classify (n is defined by the number of PoV pairs with non-zero values). This method is only effective when the number of hidden messages is large and the order of hidden in the raster direction (from left to right, top to bottom), the opposite is not. Thus, to improve the above problem, on the thesis we proposed the method of steganalysis by mapping frequency of the image pixels into two-dimensional matrix S = {sij , i = 0...26, j = 0...9}, with sij is the frequency of the pixel that has the value i × 10 + j in the image. Then, using standard deviation analysis to classify by the thresholds t0 (based on the ”standard deviation” table) will result in better detection in the case hidden with a small amount of information and scattered hidden across the pixels.
+- Analyzing the gray ratio between any image and the image is set up as ”landmark”: this method results in better detection than the two above methods in terms of classifi- cation results, execution time. It is based on the Neyman-Pearson Lemma by with the given probability α (Type I error), we can minimize the probability β (Type II error). Sullivan also applied this lemma in 32 to detect hidden images with LLRT technique which can detect well with a small message count of 5%. However, the classification is not good on the original image as the author gives an approximate estimation of the original image from any image that needs to be checked by the FIR filter 32. Thus, this thesis presents a separate case of Neyman-Pearson lemma with another method of image estimation, which can be classified well for both the original and the hidden image.
 
-The statistic of χ2 a degree of freedom: It is better detection method of hidden information than standard deviation. From the observation on an sample image set (600 images) with a large amount of hidden message (from 50% LSB of the image), we find that the steganography technique on LSB will change primarily on pixels has a high frequency, so it makes the pixel frequency value here approximately equal. So also by the statistical method of the frequency of the pixel into the two-dimensional matrix S = {sij , i = 0, ..., 26, j = 0, ..., 9} as above, find the row at the largest sij of S, then use χ2 a degree of freedom for pairs of sum even and sum odd values at the  
-
- 
-highest value row to classify by the threshold t0 and found in the statistics table χ2 n
-
-the probability α of the specific Type I error.
-
-Analyzing the gray ratio between any image and the image is set up as ”landmark”: this method results in better detection than the two above methods in terms of classifi- cation results, execution time. It is based on the Neyman-Pearson Lemma by with the given probability α (Type I error), we can minimize the probability β (Type II error). Sullivan also applied this lemma in 32 to detect hidden images with LLRT technique which can detect well with a small message count of 5%. However, the classification is not good on the original image as the author gives an approximate estimation of the original image from any image that needs to be checked by the FIR filter 32. Thus, this thesis presents a separate case of Neyman-Pearson lemma with another method of image estimation, which can be classified well for both the original and the hidden image.
-
-Estimating the information concealed in the image: this method estimates concealed information on the LSB of the image space using the ”coincidence” theory. Initially, we estimate based on an original C image, then hide the amount of information on image C that is image S, then estimating the information on the image S based on the image C will give the approximate amount of information has been hidden in image. However, in reality we do not have the original image, so we have to build an image to make a ”landmark”, so that we can estimate the information hidden in any image by the theory of coincidence built from the case having original image to compare. Based on empirical, the ”matched” estimation method can estimate the information on the image equivalent to other estimation approaches such as RS and DI 32 but better in terms of time taken.
+- Estimating the information concealed in the image: this method estimates concealed information on the LSB of the image space using the ”coincidence” theory. Initially, we estimate based on an original C image, then hide the amount of information on image C that is image S, then estimating the information on the image S based on the image C will give the approximate amount of information has been hidden in image. However, in reality we do not have the original image, so we have to build an image to make a ”landmark”, so that we can estimate the information hidden in any image by the theory of coincidence built from the case having original image to compare. Based on empirical, the ”matched” estimation method can estimate the information on the image equivalent to other estimation approaches such as RS and DI 32 but better in terms of time taken.
 
 ### Constrain steganalysis
 
 With the constraint steganalysis, there are some public, such as: Attack OutGuess 40, (Attack F5 13, Attack HKC 42, Attack RCM 43, Attack MBNS 44.
-
 Contributing to this research, the author has proposed four techniques of constraint steganalysis for hidden images using known hiding techniques, includes:
 
-HKC hiding technique: which is a technique of hiding based on shifting pixel fre- quency columns. The shifting creates an abnormal signal around the frequency band with the greatest value of the pixel frequency graph, so Wen-Chung Kuo and Yan- Hung Lin provide a method of detection 42 based on the relationship between the maximum frequency column called Peak and the four adjacent frequency bands of Peak to detect hidden images using the HKC technique. However, Kuo and Lin’s detection techniques are not effective in the case of low of hidden bits, so the authors propose Kuo and Lin’s advanced method for higher reliability 39. The thesis also builds the general and simpler taxonomy than Kuo and Lin. Based on this new expres- sion, we can estimate the information hidden in the image using the HKC technique.
+- HKC hiding technique: which is a technique of hiding based on shifting pixel fre- quency columns. The shifting creates an abnormal signal around the frequency band with the greatest value of the pixel frequency graph, so Wen-Chung Kuo and Yan- Hung Lin provide a method of detection 42 based on the relationship between the maximum frequency column called Peak and the four adjacent frequency bands of Peak to detect hidden images using the HKC technique. However, Kuo and Lin’s detection techniques are not effective in the case of low of hidden bits, so the authors propose Kuo and Lin’s advanced method for higher reliability 39. The thesis also builds the general and simpler taxonomy than Kuo and Lin. Based on this new expres- sion, we can estimate the information hidden in the image using the HKC technique.
 
-DIH technique: it is based on the coefficient of difference of the image. This technique loses the naturalness of the histogram of different coefficients dij , which in an un- hidden image is distributed according to the Gaussian histogram but in hidden image, it is not this distribution. This is the main reason for the author to propose a method for detecting hidden images using the DIH technique 35.  
+- DIH technique: it is based on the coefficient of difference of the image. This technique loses the naturalness of the histogram of different coefficients dij , which in an un- hidden image is distributed according to the Gaussian histogram but in hidden image, it is not this distribution. This is the main reason for the author to propose a method for detecting hidden images using the DIH technique 35.  
 
  
-IWH-hiding technique: it is a reverse-hiding technique based on shifting the frequency columns of the wavelet frequency histogram of LL, LH, HL bands. This is a unique case of the LSB hiding technique, but the amount of hidden message with the high- est hiding ability may still be very low compared to the conventional LSB hiding technique, then using the blinded steganalysis on LSB of wavelet frequency domain (χ2
+- IWH-hiding technique: it is a reverse-hiding technique based on shifting the frequency columns of the wavelet frequency histogram of LL, LH, HL bands. This is a unique case of the LSB hiding technique, but the amount of hidden message with the high- est hiding ability may still be very low compared to the conventional LSB hiding technique, then using the blinded steganalysis on LSB of wavelet frequency domain (χ2n 13, ”gray scale” of the thesis) usually results in low classification. However, when analyzing the wavelet frequency histogram, we get the abnormal state of the histogram when we hide the information. Thus the author gives the corresponding detection method and that can approximate the bit rate of information concealed in the image 35.
 
-n 13, ”gray scale” of the thesis) usually results in low classification. However, when analyzing the wavelet frequency histogram, we get the abnormal state of the histogram when we hide the information. Thus the author gives the corresponding detection method and that can approximate the bit rate of information concealed in the image 35.
-
-RVH hiding technique (hiding in two phases): this technique uses strategy of multiple concealing to improve image quality and hiding capacity. Information to hide M is classified into M1 and M2. The hiding process consists of two main phases: a horizontal hiding phase to hide M1 and a vertical hiding phase to hide M2. This is a unique case of LSB hiding technique, but this method can be avoided of detecting by some statistical detecting methods such as: χ2
-
-1, ”standard deviation”, LLRT, etc. Because of using two-phases hiding information, it avoids balancing the PoVs pairs that are caused by normally LSB technique. Therefore, to detect hidden information, the author analyzes the frequency of bit ”0” and bit ”1” of the LSB on the pixel columns in even positions or on the pixel rows at the odd position of the image vector. With unhidden images, the frequency of bit 0 and bit 1 are approximately equal, but after hiding the message using RVH this rule is broken. The author has built up the expression of calculating the probability of bits 0 and 1 after each concealed phase of RVH so that the above statement can be verified. Then, we provides an algorithm for detecting and estimating the approximate number of bits of information for hidden images using the RVH hiding technique 36.
+- RVH hiding technique (hiding in two phases): this technique uses strategy of multiple concealing to improve image quality and hiding capacity. Information to hide M is classified into M1 and M2. The hiding process consists of two main phases: a horizontal hiding phase to hide M1 and a vertical hiding phase to hide M2. This is a unique case of LSB hiding technique, but this method can be avoided of detecting by some statistical detecting methods such as: χ21, ”standard deviation”, LLRT, etc. Because of using two-phases hiding information, it avoids balancing the PoVs pairs that are caused by normally LSB technique. Therefore, to detect hidden information, the author analyzes the frequency of bit ”0” and bit ”1” of the LSB on the pixel columns in even positions or on the pixel rows at the odd position of the image vector. With unhidden images, the frequency of bit 0 and bit 1 are approximately equal, but after hiding the message using RVH this rule is broken. The author has built up the expression of calculating the probability of bits 0 and 1 after each concealed phase of RVH so that the above statement can be verified. Then, we provides an algorithm for detecting and estimating the approximate number of bits of information for hidden images using the RVH hiding technique 36.
 
 ## Conclusion
 
@@ -192,13 +158,13 @@ Steganography is still an urgent problem in the field of information protection 
 
 New techniques for steganography are constantly introduced. Each new technique has many advantages and is more difficult to detect. Analyzing and finding out the distinctive features of the image before and after hiding message are important for the technique to detect hidden images using this technique. In this direction, in the coming time, we will continue to study with the following contents:
 
-Improve algorithm to increase the accuracy of existing detection techniques.
-
-Give the method of extracting information.
-
-Find the detection method on the m LSBs domain.
-
-Study methods of detecting hidden information in other multimedia environment such as Video, Audio...  
+- Improve algorithm to increase the accuracy of existing detection techniques.
+- 
+- Give the method of extracting information.
+- 
+- Find the detection method on the m LSBs domain.
+- 
+- Study methods of detecting hidden information in other multimedia environment such as Video, Audio...  
 
  
 **REFERENCES**
