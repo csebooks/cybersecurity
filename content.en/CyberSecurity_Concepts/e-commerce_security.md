@@ -10,17 +10,10 @@ Prerna Sharma, Deepak Gupta, Ashish Khanna
 
 Maharaja Agrasen Institute of Technology, India Email: prernasharma@mait.ac.in, deepakgupta@mait.ac.in, ashishkhanna@mait.ac.in
 
-Abstract In the era of demonetization and promotion of cashless economy e-commerce has at-
+**Abstract** 
+In the era of demonetization and promotion of cashless economy e-commerce has attained the center stage. Amalgam of fast internet and advanced processors is acting as a catalyst in the development of multiple e-commerce applications and their usability. The e-commerce popularity’s credit also goes to the convenience provided to the seller and buyer of transacting from anywhere at any time. Further, scalable high speed transactions with lower operating costs have led to e-commerce acceptability worldwide. Thus, helping to expand the businesses and promoting new form of economy via e-commerce. However, the traditional practitioners of business are going to leave no stone unturned to stop this flooding of e-commerce transactions in the shadow of secure and authentic transactions. Therefore, in order to create fearless environment for buying and selling on internet need highly secure, reliable, and authentic e- commerce applications. Above discussion demon- strates the importance of security in the e- commerce for its successful implementation. This chapter explains the issues and problems associated with the security of the worldly goods and transactions in the e-commerce components and activities. Since large amount of public money is involved in the transactions, the role of information security and pri- vacy is not exaggerated in this kind of business. Many issues like Identity theft and cyber fraud are obstacles that discourage customers from getting involved in e-commerce. The education on e-commerce security issues has taken a back seat until now; it should be en- couraged as trust and security comes as huge challenges to be addressed so that one can insulate e-commerce system from set of prevailing attacks. In this chapter we will address different types of application specific security threats, security challenges, and vulnerabil- ity issues at various levels of the system. Further, it will throw light on to how to deal with various security threats, issues, and comparative analysis of various methods used in e-commerce security, and performs secure payment transactions in an efficient manner.
 
-tained the center stage. Amalgam of fast internet and advanced processors is acting as a catalyst in the development of multiple e-commerce applications and their usability. The e-commerce popularity’s credit also goes to the convenience provided to the seller and buyer of transacting from anywhere at any time. Further, scalable high speed transactions with lower operating costs have led to e-commerce acceptability worldwide. Thus, helping to expand the businesses and promoting new form of economy via e-commerce. However, the traditional practitioners of business are going to leave no stone unturned to stop this flooding of e-commerce transactions in the shadow of secure and authentic transactions. Therefore, in order to create fearless environment for buying and selling on internet need highly secure, reliable, and authentic e- commerce applications. Above discussion demon- strates the importance of security in the e- commerce for its successful implementation. This chapter explains the issues and problems associated with the security of the worldly goods and transactions in the e-commerce components and activities. Since large amount of public money is involved in the transactions, the role of information security and pri- vacy is not exaggerated in this kind of business. Many issues like Identity theft and cyber fraud are obstacles that discourage customers from getting involved in e-commerce. The education on e-commerce security issues has taken a back seat until now; it should be en- couraged as trust and security comes as huge challenges to be addressed so that one can
-
-Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et al. Copyright c© 2018 Scrivener Publishing
-
- 
- 
-insulate e-commerce system from set of prevailing attacks. In this chapter we will address different types of application specific security threats, security challenges, and vulnerabil- ity issues at various levels of the system. Further, it will throw light on to how to deal with various security threats, issues, and comparative analysis of various methods used in e-commerce security, and performs secure payment transactions in an efficient manner.
-
-Keywords: E-commerce security, E-commerce threats, E-commerce issues, E-commerce methods, E-commerce architecture, E-commerce life-cycle
+**Keywords:** E-commerce security, E-commerce threats, E-commerce issues, E-commerce methods, E-commerce architecture, E-commerce life-cycle
 
 ## Introduction
 
@@ -28,10 +21,7 @@ In the era of demonetization and promotion of cashless economy, internet has giv
 
 However, the traditional practitioners of business are going to leave no stone unturned to stop this flooding of e-commerce transactions in the shadow of secure and authentic trans- actions and this lack of trust can severely affect buyers and sellers and they may choose to refrain the use of internet and recrudesce to traditional methods of doing business; as this aspect can turn technology into curse in spite of boon 2. Therefore, in order to create fearless environment for buying and selling on internet, to oppose the above mentioned misconception and insecurity among the clients, and to create a conducive environment for e-commerce security threats the security issues should be properly reviewed and addressed by highly secure, reliable, and authentic e-commerce applications. The countermeasures must be implemented so that it does not discourage use of e-commerce operations.
 
-Above discussion demonstrates the importance of security in the e-commerce for its successful implementation. This chapter explains the issues and problems associated with the security of the worldly goods and transactions in the e-commerce components and activities. Since large amount of public money is involved in the transactions, the role of information security and privacy is not exaggerated in this kind of business. Many issues like Identity theft and cyber fraud are obstacles that discourage customers from getting involved in e-commerce. The awareness on e-commerce security issues has taken a back seat until now; although it should be encouraged as trust and security comes as huge challenges to be addressed to insulate e-commerce system from the set of prevailing attacks. In this chapter we will address different types of application specific security threats, security challenges, and vulnerability issues at various levels of the system. This chapter also aims to study e-commerce security life cycle model and propose comparative analysis of various methods of e-commerce security. Further, it will throw light on to how to deal with various security threats, issues, and comparative analysis of various methods  
-
- 
-used in e-commerce security, and performs secure payment transactions in an efficient manner.
+Above discussion demonstrates the importance of security in the e-commerce for its successful implementation. This chapter explains the issues and problems associated with the security of the worldly goods and transactions in the e-commerce components and activities. Since large amount of public money is involved in the transactions, the role of information security and privacy is not exaggerated in this kind of business. Many issues like Identity theft and cyber fraud are obstacles that discourage customers from getting involved in e-commerce. The awareness on e-commerce security issues has taken a back seat until now; although it should be encouraged as trust and security comes as huge challenges to be addressed to insulate e-commerce system from the set of prevailing attacks. In this chapter we will address different types of application specific security threats, security challenges, and vulnerability issues at various levels of the system. This chapter also aims to study e-commerce security life cycle model and propose comparative analysis of various methods of e-commerce security. Further, it will throw light on to how to deal with various security threats, issues, and comparative analysis of various methods used in e-commerce security, and performs secure payment transactions in an efficient manner.
 
 ## Literature Review
 
@@ -76,94 +66,41 @@ In this architectural framework client denotes customer and server denotes busin
 
 Two different type of client server architecture of e-commerce are 4: Two tier archi- tecture, and Three tier architecture.
 
-**4.3.2.1 Two Tier Architecture** In this architecture data rests on server whereas business application/logic and user interface rests on client. Client process makes user interface available that collects and present the data on the customer’s computer. Thus, this part of the application is known as Presentation Layer.
+**4.3.2.1 Two Tier Architecture** 
+In this architecture data rests on server whereas business application/logic and user interface rests on client. Client process makes user interface available that collects and present the data on the customer’s computer. Thus, this part of the application is known as Presentation Layer.
 
 Server processes makes availability of interface that frames the data store/ database. Thus, this part of application is known as Data Layer.
 
 The Business Logic/ Application that mostly resides on client side can also reside on server side. The business logic performs various functions of validating data and monitor- ing security and permissions.
 
-**4.3.2.2 Three Tier Architecture** To address the limitation of 2 tier architecture; three tier architecture emerged in 1990s. In this business logic is separated from user interface and from data access. Hence, all three are maintained as independent modules. Thus, in this architecture there are 3 tier involved:
+**4.3.2.2 Three Tier Architecture** 
+To address the limitation of 2 tier architecture; three tier architecture emerged in 1990s. In this business logic is separated from user interface and from data access. Hence, all three are maintained as independent modules. Thus, in this architecture there are 3 tier involved:
 
 Top tier: User interface services; Text input session; Dialog management: Display management  
 
- 
+ ![Alt text](image.png)
 Figure 4.1 Two tier e-commerce architecture
 
 Middle tier: Process management services; Process development & process monitor- ing; Process resourcing
 
 Third tier: Database management services; Data consistency; Centralized process logic; Localizing the system functionality.
 
+![Alt text](image-1.png)
 Figure 4.2 Three tier e-commerce architecture
 
 Operation: In e-commerce system client access via internet, sends request which passes a firewall that filters the packets destined for wrong address or wrong ports. Web server treats the request by calling an application which accesses a database server in order to modify, update or read a record or records stored in database and further replies with an HTML page or file. These servers are in addition connected to huge networks 5.
 
 ### Advantages and Disadvantages of E-commerce
 
-As in the above section we have discussed many characteristics of e-commerce. The inter- net aids in forming virtual communities which is basically group of people having common  
-
- 
-interest. These virtual communities become ideal target market. There are various advan- tages of performing business online from perspective of different stakeholders.
+As in the above section we have discussed many characteristics of e-commerce. The inter- net aids in forming virtual communities which is basically group of people having common interest. These virtual communities become ideal target market. There are various advan- tages of performing business online from perspective of different stakeholders.
 
 Table 4.1 Advantages of e-commerce
-
-S.No E-commerce Advantages Stakeholders
-
-1 Organization Low cost
-
-Less number of employees involved
-
-Global reach, even to remote areas
-
-Easier management of inventory
-
-2 Client/Customer Customized experience
-
-Can compare prices easily of same products/services
-
-Products/Services available at a mouse click
-
-Wider range of choices available
-
-3 Society Promotes cashless economy which, in turn curbs black money
-
-rovides online services in various sectors
-
-Prices of product is kept under check as no middlemen are
-
-involved like wholesalers, retailers etc.
+![Alt text](image-2.png)
 
 If we look at e-commerce operations form various stakeholders point of view, there are many drawbacks associated with them.
 
 Table 4.2 Disadvantages of e-commerce
-
-S.No E-commerce Disadvantages Stakeholders
-
-1 Organization Data privacy issues
-
-Not everything can be sold like perishable products or,
-
-expensive luxury items
-
-Highly competitive
-
-Problem of adherence to legal standards
-
-2 Client/Customer Look and feel not available before buying
-
-Internet connectivity required
-
-Product delivery not instant
-
-Products not available when server is down
-
-Product when delivered may not be as expected
-
-3 Society Security of data like leakage of data
-
-Knowledge of using internet is limited
-
-Prices of product is kept under check as no middlemen are  
-
+![Alt text](image-3.png)
  
 ## Security overview in e-commerce
 
@@ -171,18 +108,12 @@ Security is the need of an hour when one operates online as network’s vulnerab
 
 ### Purpose of security in e-commerce
 
-1. Authentication: Authentication ensures that only right user has access to data 6. 2. Non-Repudiation: It is a form of confirmation from the user that s/he has indeed
-
-performed an action, so that s/he cannot deny performing that action in future. 3. Privacy: Privacy gives control to the user on how much his/her data can be given/distributed
-
-to third parties. 4. Confidentiality: Confidentiality pertains to that data cannot be accessed by any unau-
-
-thorized person/party. 5. Availability: Availability means that all the data is available to a user s/he is entitled
-
-to, or has the right to access. 6. Integrity: Integrity ensures that data received by a user is the same that was transmit-
-
-ted by sender, that is, no change or manipulation of data has occurred while transmitting data.
-
+1. Authentication: Authentication ensures that only right user has access to data 6. 
+2. Non-Repudiation: It is a form of confirmation from the user that s/he has indeed performed an action, so that s/he cannot deny performing that action in future. 
+3. Privacy: Privacy gives control to the user on how much his/her data can be given/distributed to third parties. 
+4. Confidentiality: Confidentiality pertains to that data cannot be accessed by any unauthorized person/party. 
+5. Availability: Availability means that all the data is available to a user s/he is entitled to, or has the right to access. 
+6. Integrity: Integrity ensures that data received by a user is the same that was transmitted by sender, that is, no change or manipulation of data has occurred while transmitting data.
 7. Encryption: It is the encoding of data in such a way that the data cannot be understood directly by reading it.
 
 ### Security element at different levels of e-commerce system
@@ -212,15 +143,15 @@ These days customers tend to get hands on to e-commerce system via different mod
 
 Security issues with respect to mobile devices and wireless networks which further affects e-business are:
 
-Captured and Retransmitted Messages: In this attacker catches hold of message that is of a legitimate user and replays it by altering the message to the same receiver or different one so that the attacker can get unauthorized access and hands on to important information 7.
+- Captured and Retransmitted Messages: In this attacker catches hold of message that is of a legitimate user and replays it by altering the message to the same receiver or different one so that the attacker can get unauthorized access and hands on to important information 7.
 
-Eavesdropping: This attack happens on unsecured network and information transmit- ted is also not in encrypted form. Thus, an outsider can ears into vulnerable network and can easily get access to sensitive data.
+- Eavesdropping: This attack happens on unsecured network and information transmit- ted is also not in encrypted form. Thus, an outsider can ears into vulnerable network and can easily get access to sensitive data.
 
-Mobile device pull attack: The attacker controls the mobile device as a source of propriety data and control information. Data can be obtained from the device itself through the data export interfaces, a synchronized desktop, mobile applications run- ning on the device or the internet servers 8.
+- Mobile device pull attack: The attacker controls the mobile device as a source of propriety data and control information. Data can be obtained from the device itself through the data export interfaces, a synchronized desktop, mobile applications run- ning on the device or the internet servers 8.
 
-Mobile device push attack: The attacker uses the mobile device to plant a malicious code and spread it to infect other elements of the network. Once the mobile device inside a secure network is compromised, it could be used for attacks against other devices or server in the network 8.
+- Mobile device push attack: The attacker uses the mobile device to plant a malicious code and spread it to infect other elements of the network. Once the mobile device inside a secure network is compromised, it could be used for attacks against other devices or server in the network 8.
 
-Lost Device: A mobile device should always be protected with a password as there is always a chance of its getting lost or stolen and an unauthorized user can access it.
+- Lost Device: A mobile device should always be protected with a password as there is always a chance of its getting lost or stolen and an unauthorized user can access it.
 
 ### Front End Servers and Software Application Level
 
@@ -230,94 +161,86 @@ Keeping security advisories and patches updated is quite difficult as communicat
 
 ### Network and Servers level
 
-As most of the networks are dependent on other networks which are privately owned and managed, whose security measures are not known to us and its control is also not avail-  
+As most of the networks are dependent on other networks which are privately owned and managed, whose security measures are not known to us and its control is also not available. Inscription aid is used to secure data moving across a network. Network operator is responsible for transporting information securely.
 
- 
-able. Inscription aid is used to secure data moving across a network. Network operator is responsible for transporting information securely.
+- DDoS: Whenever hackers launch a denial of service attack it comes out to be one of the most bothersome security issue faced by e-business today. It is characterized as categorical effort by attackers to avert users from using an e-business system.
 
-DDoS: Whenever hackers launch a denial of service attack it comes out to be one of the most bothersome security issue faced by e-business today. It is characterized as categorical effort by attackers to avert users from using an e-business system.
+- Session Interception and message modification: The attacker can transmit altered messages by hijacking a session. He /she can also add a malicious host between client host and server host, which is popularly known as man-in-the-middle. In this case communication in data passes through the attackers’ host.
 
-Session Interception and message modification: The attacker can transmit altered messages by hijacking a session. He /she can also add a malicious host between client host and server host, which is popularly known as man-in-the-middle. In this case communication in data passes through the attackers’ host.
-
-Firewall Loophole: A firewall is a software or hardware device installed between backend server and corporate network. It is usually implemented at network protocol layer and fails to protect the system at higher protocols. Hackers sense same unfixed firewall loopholes and tries to access price list, email list, catalogs etc.
+- Firewall Loophole: A firewall is a software or hardware device installed between backend server and corporate network. It is usually implemented at network protocol layer and fails to protect the system at higher protocols. Hackers sense same unfixed firewall loopholes and tries to access price list, email list, catalogs etc.
 
 ## Security threats in e-commerce
 
 E-commerce has a tendency to be at a higher stratum for risk and attacks. In e-commerce data are the key to track consumer shopping behavior to personalize offers, which are col- lected over time using consumer browsing and transactional points 19. Server level is the physical place where all of these transactions happens. The server is regarded as the central repository for one’s E-Commerce abode of Business that entails definite website which displays one’s products and services, the database of the customer and the mecha- nism of payment. If any attack takes place on the server, then it proves to be a huge setback as there is a potential of losing everything. Thus, taking the initiative about security takes on a much grander extent now. Now let us discuss various e-commerce security threats in detail 9.
 
-Distributed Denial of Services (DDoS): In this type of attack the availability of a target system (e-commerce) comes in question; as millions of customers are unable to access an online system which is overwhelmed with traffic from multiple sources. In this a botnet is formed in which multiple devices are connected online; these devices tend to generate fake traffic flooding the target system which results in the service being denied to legitimate customer. This attack affects not only the target site but also creates problem of congestion over the entire network (Internet).
+**Distributed Denial of Services (DDoS):** In this type of attack the availability of a target system (e-commerce) comes in question; as millions of customers are unable to access an online system which is overwhelmed with traffic from multiple sources. In this a botnet is formed in which multiple devices are connected online; these devices tend to generate fake traffic flooding the target system which results in the service being denied to legitimate customer. This attack affects not only the target site but also creates problem of congestion over the entire network (Internet).
 
 It becomes difficult to control or stop the attack as one cannot differentiate between genuine traffic and attack traffic. An attacker may restrain you from getting hands-on e- mail, websites, online accounts that affected computer dependent on10.
 
 DDoS attack comprises of four elements 11:
 
-Victim - The target host who is going to deal with burden of attack.
+- Victim - The target host who is going to deal with burden of attack.
 
-Attack Daemon Agent Agent programs that perform the attack on victim. Its set up is mostly on host computer but it tends to affect both host and target computer. These daemons tend to gain access and cause infiltration in the host computer.
+- Attack Daemon Agent Agent programs that perform the attack on victim. Its set up is mostly on host computer but it tends to affect both host and target computer. These daemons tend to gain access and cause infiltration in the host computer.
 
-Control Master Program Coordinates the attack.
+- Control Master Program Coordinates the attack.
 
-Real Attacker Although being the mastermind of the attack, it stays in the background by using the control master program.  
+- Real Attacker Although being the mastermind of the attack, it stays in the background by using the control master program.  
 
- 
+ ![Alt text](image-4.png)
 Figure 4.3 DDOS attack
 
-SQL Injection: As the name of the attack suggests there must be a sql query which has been inserted while the user inputs the data as the query gets executed at client end, the attack comes into operation. This is one of the most common web hacking technique in which code is injected that might create havoc on database.
+**SQL Injection:** As the name of the attack suggests there must be a sql query which has been inserted while the user inputs the data as the query gets executed at client end, the attack comes into operation. This is one of the most common web hacking technique in which code is injected that might create havoc on database.
 
 SQL injection causes are as follows 12:
 
-Running of software applications that welcome data from unauthentic internet users.
+- Running of software applications that welcome data from unauthentic internet users.
 
-Unable to validate the data.
+- Unable to validate the data.
 
-This data is further used in dynamic SQL query to database backing the application.
+- This data is further used in dynamic SQL query to database backing the application.
 
 SQL injection results in: Spoofing of identity, alter existing data, revealing entire data on the system, access to the data is made unavailable by destroying the data. Become administrator of database.
-
+![Alt text](image-5.png)
 Figure 4.4 SQL Injection Attack
 
-Price Manipulation: As the name suggests, the original price is manipulated to dif- ferent value. This type of attack is very common on online shopping cart platforms and payment gateways. In this the final payable price is manipulated by the attacker according to his will. In coding, programmer makes use of hidden fields in order to store value of  
-
- 
-total item cost; which a hacker can tamper with a value stored on his browser, thus the total amount that is payable is modified by the attacker. Supposedly, the value of an item is mod- ified from Rs.2000/- to Rs.200/-, then it becomes exciting for the customer but misfortune for the seller.
-
+**Price Manipulation:** As the name suggests, the original price is manipulated to dif- ferent value. This type of attack is very common on online shopping cart platforms and payment gateways. In this the final payable price is manipulated by the attacker according to his will. In coding, programmer makes use of hidden fields in order to store value of total item cost; which a hacker can tamper with a value stored on his browser, thus the total amount that is payable is modified by the attacker. Supposedly, the value of an item is mod- ified from Rs.2000/- to Rs.200/-, then it becomes exciting for the customer but misfortune for the seller.
+![Alt text](image-6.png)
 Figure 4.5 Price Manipulation
 
-Session Hijacking: A session is sequence of interactions maintained over a single con- nection between two nodes or end points. As the name of the attack suggests the session control is taken over by hijacker as he/she steals a valid session Id which allows him/her to enter or keep an eye on data or extract it. By changing the route of packets with his or her system an attacker can take part in the conversation of other users 14. It is a combination of sniffing and spoofing.
-
+**Session Hijacking:** A session is sequence of interactions maintained over a single con- nection between two nodes or end points. As the name of the attack suggests the session control is taken over by hijacker as he/she steals a valid session Id which allows him/her to enter or keep an eye on data or extract it. By changing the route of packets with his or her system an attacker can take part in the conversation of other users 14. It is a combination of sniffing and spoofing.
+![Alt text](image-7.png)
 Figure 4.6 Session Hijacking Attack
 
-Cross Site Script (XSS): In this type of attack a malicious script is attached to trusted websites from compromised site. On adding malicious script the attacker gains access to sensitive information, session cookies etc. It is a special case of code injection. Here, the end users browser has no clue whether it is a trustworthy script or not. Thus, it goes step ahead to execute this script. These scripts change and rewrite the HTML page content.
+**Cross Site Script (XSS):** In this type of attack a malicious script is attached to trusted websites from compromised site. On adding malicious script the attacker gains access to sensitive information, session cookies etc. It is a special case of code injection. Here, the end users browser has no clue whether it is a trustworthy script or not. Thus, it goes step ahead to execute this script. These scripts change and rewrite the HTML page content.
 
 ## Security Approaches in E-commerce
 
 The security of most crucial information of a customer i.e. a credit card data should be of highest priority when transactions are carried online. Security measures that should be ensured in e-commerce architecture are DMZ, firewalls, SSL, SET, Data Encryption, Intrusion Detection, Digital signature and certificates 5.  
 
- 
+ ![Alt text](image-8.png)
 Figure 4.7 Cross Site Script Attack
 
-Demilitarized Zone (DMZ): It is a special local network that holds sensitive data which is to be saved from unauthorized access. It lies between internet and internal network. It consist of external facing servers ( front-end servers, back-end servers) and firewalls. The job of firewall is not only of protection of front end server but it also filters traffic between corporate network and backend servers. It provides additional level of security as access to internal servers and data via internet in the internal LAN remains unreachable. An external node has access to what is available in DMZ.
+**Demilitarized Zone (DMZ):** It is a special local network that holds sensitive data which is to be saved from unauthorized access. It lies between internet and internal network. It consist of external facing servers ( front-end servers, back-end servers) and firewalls. The job of firewall is not only of protection of front end server but it also filters traffic between corporate network and backend servers. It provides additional level of security as access to internal servers and data via internet in the internal LAN remains unreachable. An external node has access to what is available in DMZ.
 
-Firewalls: When a computer gets connected to internet it becomes open to attack. A firewall is either hardware based or software based; monitors and controls the traffic that comes in and goes out of our computer based on predetermined security rules. It can be configured to let packets from specific IP addresses and ports enter or block them. Thus, it acts as a barrier between trusted network and untrusted network.
+**Firewalls:** When a computer gets connected to internet it becomes open to attack. A firewall is either hardware based or software based; monitors and controls the traffic that comes in and goes out of our computer based on predetermined security rules. It can be configured to let packets from specific IP addresses and ports enter or block them. Thus, it acts as a barrier between trusted network and untrusted network.
 
-Data Encryption: Encryption Technology converts plain text into unreadable format which does not allow third party to view the text. Hence, crucial information credit card number, financial transactions and personal data can be protected. It offers a technique to find out any alteration/modification of data occurred over unsecured network; when the data is received. Data is transmitted over a secure network such as SSL, using secure protocol such as HTTPS.
+**Data Encryption:** Encryption Technology converts plain text into unreadable format which does not allow third party to view the text. Hence, crucial information credit card number, financial transactions and personal data can be protected. It offers a technique to find out any alteration/modification of data occurred over unsecured network; when the data is received. Data is transmitted over a secure network such as SSL, using secure protocol such as HTTPS.
 
 There are two types of encryption techniques:
 
-Symmetric Key Encryption
+- Symmetric Key Encryption
 
-Asymmetric Key Encryption.
+- Asymmetric Key Encryption.
 
-Intrusion Detection System (IDS): IDS evenly monitor real time network traffic. When it come across an attack signature or a suspicious activity; it becomes attentive and gen- erates alarm to alert the system or network administrator. Sometimes it responds to the malicious traffic by simply blocking the user from accessing the network. It can also pre- vent denial of service attack. It should be installed in front of a firewall.
+**Intrusion Detection System (IDS):** IDS evenly monitor real time network traffic. When it come across an attack signature or a suspicious activity; it becomes attentive and gen- erates alarm to alert the system or network administrator. Sometimes it responds to the malicious traffic by simply blocking the user from accessing the network. It can also pre- vent denial of service attack. It should be installed in front of a firewall.
 
-Digital signature and certificate: It supports e-commerce security features authentica- tion and integrity. A Digital Signature Certificate (DSC) is a secure digital key that certi- fies the identity of the holder, issued by a Certifying Authority (CA). It typically contains your identity (name, email, country, APNIC account name and your public key). Digital Certificates use Public Key Infrastructure meaning data that has been digitally signed or encrypted by a private key can only be decrypted by its corresponding public key. A dig-  
-
- 
-ital certificate is an electronic “credit card” that establishes your credentials when doing business or other transactions on the Web 13.
+**Digital signature and certificate:** It supports e-commerce security features authentica- tion and integrity. A Digital Signature Certificate (DSC) is a secure digital key that certi- fies the identity of the holder, issued by a Certifying Authority (CA). It typically contains your identity (name, email, country, APNIC account name and your public key). Digital Certificates use Public Key Infrastructure meaning data that has been digitally signed or encrypted by a private key can only be decrypted by its corresponding public key. A digital certificate is an electronic “credit card” that establishes your credentials when doing business or other transactions on the Web 13.
 
 ## Comparative analysis of various security threats in e-commerce
 
 Table 4.3 Comparative analysis of various security threats in e-commerc
+![Alt text](image-9.png)
 
 ## E-commerce security life-cycle model
 
@@ -333,7 +256,7 @@ Steps to design security of system are 14:
 
 4. Ensure the properties are safeguarded under the attack.
 
-Security Requirement Specification & Risk Analysis: At the initial stage information about the following questions is to be gathered:
+**Security Requirement Specification & Risk Analysis:** At the initial stage information about the following questions is to be gathered:
 
 a . What are the assets of the organization that are to be protected?
 
@@ -341,7 +264,6 @@ b . What are the threats associated with those assets?
 
 c . What are the access control policies?  
 
- 
 d . What is operational infrastructure?
 
 e . What are the services required to access the asset?
@@ -350,7 +272,7 @@ f . What is the access control mechanism for the services?
 
 Security attributes that are to be protected are authentication, privacy, authorization, integrity.
 
-Security Policy Specification: Security requirement specification and risk analysis re- port is fed as input to this phase; e-commerce security policy is generated as output. Policy are basically high-level-rule-based statements.
+**Security Policy Specification:** Security requirement specification and risk analysis re- port is fed as input to this phase; e-commerce security policy is generated as output. Policy are basically high-level-rule-based statements.
 
 Issues covered by security policy are
 
@@ -364,7 +286,7 @@ d . Corporate network remote access is associated with which class of employees?
 
 e . How security breaches is to be dealt with?
 
-Security Infrastructure Specification: Analysis of security requirement specification and security policy specification takes place in this stage of the life-cycle. In this phase one finds out list of security tools that are needed to protect the assets. It is basically the implementation of security policy. Some instances are:
+**Security Infrastructure Specification:** Analysis of security requirement specification and security policy specification takes place in this stage of the life-cycle. In this phase one finds out list of security tools that are needed to protect the assets. It is basically the implementation of security policy. Some instances are:
 
 a . Applying password aging and expiration.
 
@@ -374,7 +296,7 @@ c . Recording in a written log all the physical access made to servers
 
 d . Physical access to building is given via badges
 
-Testing E-commerce Security: Several tests are conducted on the system for the fol- lowing purpose:
+**Testing E-commerce Security:** Several tests are conducted on the system for the fol- lowing purpose:
 
 a . How effective the security infrastructure is?
 
@@ -395,8 +317,8 @@ c . Gap between proposed security infrastructure and the implemented infrastruct
 d . Limitation of the proposed security infrastructure  
 
  
-Requirement Validation: This phase analysis the extent to which security require- ments of e-commerce organization is fulfilled in accordance with security policy and im- plemented security infrastructure. The entire process/cycle starts again if change is incor- porated in the business goal, operational environment and technology. New set of security requirements come in place which stimulates the new cycle of software engineering life- cycle.
-
+**Requirement Validation:** This phase analysis the extent to which security require- ments of e-commerce organization is fulfilled in accordance with security policy and im- plemented security infrastructure. The entire process/cycle starts again if change is incor- porated in the business goal, operational environment and technology. New set of security requirements come in place which stimulates the new cycle of software engineering life- cycle.
+![Alt text](image-10.png)
 Figure 4.8 Security Engineering Lifecycle
 
 ## Conclusion
