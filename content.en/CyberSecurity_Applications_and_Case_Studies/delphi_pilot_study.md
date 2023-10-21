@@ -19,7 +19,7 @@ Holly Reitmeier1, Jolanda Tromp2, John Bottoms3
 **Abstract**
 Cybercrime is becoming more and more prevalent in today’s society  and attackers are continuously discovering new methods to hack systems. Monitoring and maintaining com- puter network security is a complex process that presents unique challenges. If security is not constantly strengthened, cyber threats have the potential to affect millions of systems, all of which share similar vulnerabilities.
 
-The issues surrounding cybercrimes are exponentially different than other types of crimes carried out in society. Therefore, federal law enforcement agencies are faced with the difficult task of generating new approaches to combat it. This chapter explores the concepts of cybercrime and cyber-security, presents the statistical impact it is having on organizations, and demonstrates the importance of an effective cyber-security policy man- ual. It also describes the methodology used for this research, analyzes the data provided by expert testimonials, and introduces the development of a new innovative technologi- cal method [Blockchain] to minimize the risk of the cyber world. The analyses cover the extent in which Blockchain applications could help strengthen cyber-security and protect organizations against cyber-attacks, and what kind of research directions are essential for the future.
+The issues surrounding cybercrimes are exponentially different than other types of crimes carried out in society. Therefore, federal law enforcement agencies are faced with the difficult task of generating new approaches to combat it. This chapter explores the concepts of cybercrime and cyber-security, presents the statistical impact it is having on organizations, and demonstrates the importance of an effective cyber-security policy man- ual. It also describes the methodology used for this research, analyzes the data provided by expert testimonials, and introduces the development of a new innovative technological method [Blockchain] to minimize the risk of the cyber world. The analyses cover the extent in which Blockchain applications could help strengthen cyber-security and protect organizations against cyber-attacks, and what kind of research directions are essential for the future.
 
 **Keywords:** Cybercrime, Cybersecurity, Cyberworld, Blockchain, Delphi
 
@@ -33,7 +33,7 @@ This chapter is focused on cybersecurity policies and prevention. Cybercrimes ar
 
 ### What is Cybercrime?
 
-Computers and Information Technology (IT) first emerged into the business world in the 1960s. Since then, cybercrime has steadily been on the rise. The cyber-security commu- nity and major news media have largely concurred on the prediction that, “Cybercrime damages will cost the world $6 trillion annually by 2021. This is up from $3 trillion just a year ago 12.” The rapidly evolving phenomenon, the Internet of Things (IoT) has dra- matically changed the way business is conducted. Organizations must acknowledge that the use of these new digital assets and devices for accessing them present ongoing threats to the security of critical business information. “Internet of Things refers to things having identities and virtual personalities operating in smart spaces using intelligent interfaces to connect and communicate within social, environmental, and user contexts 15.” The IoT is widening the sphere of physical security of cybersecurity, as smart devices connected to business systems via the Internet may be located outside of established secure perime- ters. As a result, this is a leading factor as to why corporate data is becoming increasingly harder to protect. IoT devices may be hacked remotely or through hardware changes if the device can be accessed, such as is the case for large exterior complexes such as chemical plants. Both the operating system and application vulnerabilities leave organizations open to attack.
+Computers and Information Technology (IT) first emerged into the business world in the 1960s. Since then, cybercrime has steadily been on the rise. The cyber-security commu- nity and major news media have largely concurred on the prediction that, “Cybercrime damages will cost the world $6 trillion annually by 2021. This is up from $3 trillion just a year ago [12].” The rapidly evolving phenomenon, the Internet of Things (IoT) has dra- matically changed the way business is conducted. Organizations must acknowledge that the use of these new digital assets and devices for accessing them present ongoing threats to the security of critical business information. “Internet of Things refers to things having identities and virtual personalities operating in smart spaces using intelligent interfaces to connect and communicate within social, environmental, and user contexts 15.” The IoT is widening the sphere of physical security of cybersecurity, as smart devices connected to business systems via the Internet may be located outside of established secure perime- ters. As a result, this is a leading factor as to why corporate data is becoming increasingly harder to protect. IoT devices may be hacked remotely or through hardware changes if the device can be accessed, such as is the case for large exterior complexes such as chemical plants. Both the operating system and application vulnerabilities leave organizations open to attack.
 
 Organizations today are able to spread information quicker than ever before. However, the tools and platforms that allow companies to instantaneously connect internally and externally with customers, suppliers and partners are subject to the serious risk of exposure. Not only does cybercrime significantly hinder business functions, but it can also result in serious reputational damage when not handled properly. According to a report by Forbes Insight and IBM, 46 percent of companies have suffered reputational damage due to a data breach 10. The stakes are clearly high when it comes to data breaches.
 
@@ -122,7 +122,7 @@ There has to be a fundamental understanding that while using the Internet to con
 
 ## Cybersecurity Policies for Organizations
 
-The statistics that have been reviewed regarding cybercrime referenced in the previous section show that cybersecurity policy initiatives are pertinent to protect sensitive data at an organization. The word “Policy” is applied to a variety of situations that concern cybersecurity. It has been used to refer to laws and regulations concerning information distribution but is generally associated with maintaining cyber-security in today’s business world 2.
+The statistics that have been reviewed regarding cybercrime referenced in the previous section show that cybersecurity policy initiatives are pertinent to protect sensitive data at an organization. The word “Policy” is applied to a variety of situations that concern cybersecurity. It has been used to refer to laws and regulations concerning information distribution but is generally associated with maintaining cyber-security in today’s business world [2].
 
 The standards and guidelines set forth by the International Organization for Standard- ization (ISO) in ISO 27001, strongly recommend that all private and public sector orga- nizations develop, implement, and maintain an appropriate cyber-security defense policy. The purpose of the ISO is to create documents that provide requirements, specifications, guidelines or characteristics that can be used consistently to ensure that materials, prod- ucts, processes and services are fit for their purpose 11. ISO 27001 provides best practice recommendations on information security management for use by those responsible for initiating, implementing or maintaining information security management systems 11. For an organization, its cyber-security strategy entirely revolves around a policy manual. The purpose of a written security policy is to ensure that information is accessible only to those authorized to have access. Determining what information needs to be included in the policy manual and how it is validated should be a top priority of every organization. By creating a multi-layered plan to prevent cyber-attacks, an organization can substantially reduce its risk exposure.
 
@@ -286,11 +286,11 @@ The results were collected over a period of four weeks, and vary in type with ea
 
 In the first round, eight experts responded to a series of quantitative and qualitative ques- tions relating to cybersecurity and Blockchain technology. Four distinct findings emerged from the experts in round one. These are described below.
 
-### 11.6.1.1 Expert Level Awareness of Cyber-Security
+####  Expert Level Awareness of Cyber-Security
 
 62.5% respondents are ”Very aware” of cybersecurity and the remaining 37.5% are Moderately aware (see Figure 11.3). Therefore, the researcher sought to investigate what each expert would recommend in regards to creating a cybersecurity policy.
 
-### 11.6.1.2 Cyber Incident Response Plan
+#### Cyber In#cident Response Plan
 
 As shown in Figure 11.4, 75% of 8 respondents either Strongly Disagree or Disagree that the majority of organizations have an effective cyber incident response plan. Therefore, the researcher sought to determine what each expert believes should be done to correct this.  
 
@@ -300,16 +300,14 @@ As shown in Figure 11.4, 75% of 8 respondents either Strongly Disagree or Disagr
 ![Alt text](image-3.png)
 **Figure 11.4** Effective Incident Response Plans
 
-### 11.6.1.3 Federal Government Cybersecurity Initiatives
+#### Federal Government Cybersecurity Initiatives
 
-As shown in Figure 11.5, 62.5% of respondents believe that federal governments need
-
-to improve cyber-security initiatives. Therefore, the researcher sought to examine what measures governments should take in this regard.
+As shown in Figure 11.5, 62.5% of respondents believe that federal governments need to improve cyber-security initiatives. Therefore, the researcher sought to examine what measures governments should take in this regard.
 
 ![Alt text](image-4.png)
 **Figure 11.5** Federal Government Cybersecurity Initiatives
 
-**11.6.1.4 Blockchain Secure Internet Transactions** 
+#### Blockchain Secure Internet Transactions 
 
 75% of respondents believe that using a technology like Blockchain is a more secure method than using intermediaries to complete Internet transactions (See Figure 11.6 below and in Reitmeier, 2017). Therefore, the researcher sought to determine why Blockchain would or wouldn’t help to strengthen an organization’s cyber-security policy manual.
 
