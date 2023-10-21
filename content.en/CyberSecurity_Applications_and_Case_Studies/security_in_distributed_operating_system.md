@@ -5,17 +5,16 @@ weight: 4
 
 # SECURITY IN DISTRIBUTED OPERATING SYSTEM: A COMPREHENSIVE STUDY
 
-Sushree Bibhuprada B. Priyadarshini1, Amiya Bhusan Bagjadab2, Brojo Kishore Mishra 3
+Sushree Bibhuprada B. Priyadarshini^1^, Amiya Bhusan Bagjadab^2^, Brojo Kishore Mishra ^3^
 
-1 Institute of Technical Education and Research, Bhubaneswar, India. 2 Sambalpur University of Information Technology, Burla, India 3 C. V. Raman College of Engineering, Bhubaneswar, India Email: bimalabibhuprada@gmail.com, amiya7bhusan7@gmail.com, brojokishoremishra@gmail.com
+^1^ Institute of Technical Education and Research, Bhubaneswar, India. 
+^2^ Sambalpur University of Information Technology, Burla, India 
+^3^ C. V. Raman College of Engineering, Bhubaneswar, India Email: bimalabibhuprada@gmail.com, amiya7bhusan7@gmail.com, brojokishoremishra@gmail.com
 
-Abstract In recent years, various attacks have been extensively making their passage into the
+**Abstract** 
+In recent years, various attacks have been extensively making their passage into the world of information. In this context, security in Distributed Operating Systems poses it- self as a crucial element. Currently though, whole newer information markets have opened up as playing fields for number of computer criminals, still then it is the job of the user to protect the data. In current chapter, we briefly put light on security policy, security mecha- nism, various categories of attacks, Denial of Service attack, Globus Security Architecture along with distribution of security mechanism. Furthermore, we have also investigated the various strategies of attack that occur frequently in any information system under consideration.
 
-world of information. In this context, security in Distributed Operating Systems poses it- self as a crucial element. Currently though, whole newer information markets have opened up as playing fields for number of computer criminals, still then it is the job of the user to protect the data. In current chapter, we briefly put light on security policy, security mecha- nism, various categories of attacks, Denial of Service attack, Globus Security Architecture along with distribution of security mechanism. Furthermore, we have also investigated the various strategies of attack that occur frequently in any information system under consid- eration.
-
-Keywords: Access Control, Cryptography, Denial of Service, Distributed Operating System, Fabrication, Threat.
-
-Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et al. Copyright c© 2018 Scrivener Publishing
+**Keywords:** Access Control, Cryptography, Denial of Service, Distributed Operating System, Fabrication, Threat.
 
  
  
@@ -23,9 +22,13 @@ Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et 
 
 The phrase ”Operating system security” is basically the process of ensuring the integrity, confidentiality as well as availability of the operating systems. Fundamentally, Operat- ing system security (abbreviated as: OS security) incorporates the measures involved in protecting the OS from various viruses, worms, threats, malware or external hackers, etc. Basically, a Distributed Operating System is an operating system , which is a software over a gathering of various independent, networked as well as physically distinguished computational nodes. Various jobs are carried out by multiple Central Processing Units (CPUs). Fundamentally, a distributed OS represents an extension of the operating systems employed in networks that assists in higher levels of information interchange and combina- tions of the machines across the network. The logical organization of Distributed systems into various layers is as portrayed in Figure 14.1, where various layers are arranged among one another including kernel and the hardware.
 
+![Alt text](image.png)
+
 Figure 14.1 Logical organization of distributed systems into various layers
 
 With the popularity of distributed systems, the demand of security is growing day by day with the advent of modern technology in case of Distributed Operating System. However, if the attacker can have the physical contact with the intended machine, then it becomes hectic to protect the concerned system. Moreover, various basic elements of security are as shown in Figure 14.2.
+
+![Alt text](image-1.png)
 
 Figure 14.2 Basic Elements of Security  
 
@@ -34,36 +37,35 @@ They involve: isolation and minimization of services, access control, cryptograp
 
 However, the external threats are the easiest way for protecting. Normally, most of the attacks prevail owing to social engineering, observation, rummaging in the trash, etc. A distributed system represents a network which comprises of various autonomous comput- ers interconnected through a distribution middleware. In this system, sharing of various resources occur. In other words, a distributed system is that system which is designed to assist in the development of various applications as well as services that can makes use of a physical architecture comprising of multiple, processing elements that are autonomous and which do not share primary memory, however, cooperate through transferring asyn- chronous messages over a communication network of interest. The main motto of using distributed systems are: resource sharing, scalability, extensibility, etc. A scenario of in- formation exchange in distributed systems is as shown in Figure 14.3.
 
+![Alt text](image-2.png)
+
 Figure 14.3 A scenario of information exchange in distributed systems
 
 As shown in the Figure 14.3, all the systems are interconnected through Local Area Net- work (LAN). A Gateway is present that connects one network to another. In this chapter, we put focus on several mechanisms which are normally integrated in distributed systems for assisting security. Fundamentally, security in distributed systems can be segregated into two parts: the first part is concerned with the communication between users or processes, those dwell on distinct machines. The primitive technique for making sure such secure communication is that of usage of a secure channel.
 
-We will discuss on message confidentiality, message authentication, message integrity in the coming sections. The second part concentrates on authorization that deals with making sure that a process attains access rights to those resources in a distributed system for which it is assigned to. We will discuss on Authorization along with discussion on  
+We will discuss on message confidentiality, message authentication, message integrity in the coming sections. The second part concentrates on authorization that deals with making sure that a process attains access rights to those resources in a distributed system for which it is assigned to. We will discuss on Authorization along with discussion on access control. Let us first of all discuss the two things to be taken into account while considering the security in any distributed system:
 
- 
-access control. Let us first of all discuss the two things to be taken into account while considering the security in any distributed system:
+ - **Security Policy:** Means what is secure for the system or organization or entity. It basically refers to the constraints on the characteristics of the members and restrictions imposed upon the adversaries by various techniques, viz. Locks, keys, walls, doors, etc.
 
-Security Policy: Means what is secure for the system or organization or entity. It basically refers to the constraints on the characteristics of the members and restrictions imposed upon the adversaries by various techniques, viz. Locks, keys, walls, doors, etc.
+ - **Security mechanism:** A security mechanism is basically designed for preventing or recovering from a security attack. A security service basically uses one or more security mechanisms. Fundamentally, a security service is that which enhances the security of the data processing systems. The following four different types of security threats are commonly present.
 
-Security mechanism: A security mechanism is basically designed for preventing or recovering from a security attack. A security service basically uses one or more security mechanisms. Fundamentally, a security service is that which enhances the security of the data processing systems. The following four different types of security threats are commonly present.
+    -- Interception: Refers to the situation where an unauthorized party has the access to data or service. Such situation arises when the communication between two parties is overheard by any other person.
 
-- Interception: Refers to the situation where an unauthorized party has the access to data or service. Such situation arises when the communication between two parties is overheard by any other person.
+    -- Interruption: When something is corrupted or lost, the interruption occurs. Ba- sically, it the situation when services or data become unavailable, destroyed, un- usable, etc. In case of denial of service attacks some person tries maliciously for making a service inaccessible to any other party.
 
-- Interruption: When something is corrupted or lost, the interruption occurs. Ba- sically, it the situation when services or data become unavailable, destroyed, un- usable, etc. In case of denial of service attacks some person tries maliciously for making a service inaccessible to any other party.
+    -- Modification: is concerned with unauthorized change or tampering of data such that it cannot further adhere to its initial specifications. Example: Frequently changing the transmitted data.
 
-- Modification: is concerned with unauthorized change or tampering of data such that it cannot further adhere to its initial specifications. Example: Frequently changing the transmitted data.
-
-- Fabrication: Represents the circumstance where additional data or activity get produced that can not exist normally. For example, an intruder may attempt to append an entry into the password file or the database.
+    -- Fabrication: Represents the circumstance where additional data or activity get produced that can not exist normally. For example, an intruder may attempt to append an entry into the password file or the database.
 
 Further, for focussing on security mechanisms through which a policy can be enforced following are some of the mechanisms:
 
-Encryption
+- Encryption
 
-Authentication
+- Authentication
 
-Authorization
+- Authorization
 
-Auditing
+- Auditing
 
 Encryption is fundamental to computer security. Encryption transforms data into some- thing an attacker cannot understand. In other words, encryption provides a means to im- plement data confidentiality. In addition, encryption allows us to check whether data have been modified. It thus also provides support for integrity checks. Authentication is used to verify the claimed identity of a user, client, server, host, or other entity. In the case of clients, the basic premise is that before a service starts to perform any work on behalf of a client, it should be learnt 9.
 
@@ -71,91 +73,95 @@ Encryption is fundamental to computer security. Encryption transforms data into 
 
 The distinct terminologies involved in case of security of DOS are outlined as follows:  
 
-Vulnerability: It indicates a fault in the system that enables an attacking agent to create inappropriate malicious behaviour.
+- Vulnerability: It indicates a fault in the system that enables an attacking agent to create inappropriate malicious behaviour.
 
-Threat: Threat is some thing that is aimed at threatening the system.
+- Threat: Threat is some thing that is aimed at threatening the system.
 
-Compromise: It refers to the impact of the vulnerable attack.
+- Compromise: It refers to the impact of the vulnerable attack.
 
-Exploit: It means a program exploits the vulnerability/susceptibility.
+- Exploit: It means a program exploits the vulnerability/susceptibility.
 
-Payload: Payload means executing the actions pre-planned as the aim of the con- cerned attack.
+- Payload: Payload means executing the actions pre-planned as the aim of the con- cerned attack.
 
-Root kit: It refers to a set of programs that that hides the presence of the concerned attacker.
+- Root kit: It refers to a set of programs that that hides the presence of the concerned attacker.
 
-Malware: It refers to the generic name for the programs that are malicious.
+- Malware: It refers to the generic name for the programs that are malicious.
 
-- Virus: It refers to the program that propagates itself by appending its correspond- ing code to rest of the programs.
+    -- Virus: It refers to the program that propagates itself by appending its correspond- ing code to rest of the programs.
 
-- Backdoor: It refers to a secret part of the program, enabling unauthorized access.
+    -- Backdoor: It refers to a secret part of the program, enabling unauthorized access.
 
-- Trojan: It indicates a benign program having an undocumented as well as secret impact on others.
+    -- Trojan: It indicates a benign program having an undocumented as well as secret impact on others.
 
-- Logic/time bomb: It refers to a fragment of code that is executed at the time when a particular condition gets satisfied.
+    -- Logic/time bomb: It refers to a fragment of code that is executed at the time when a particular condition gets satisfied.
 
-- Worm: It refers to the program that propagates itself actively through the corre- sponding network under consideration.
+    -- Worm: It refers to the program that propagates itself actively through the corre- sponding network under consideration.
 
-- Bacteria: It refers to the program that can multiply it self for exhausting the sys- tem’s resources locally.
+    -- Bacteria: It refers to the program that can multiply it self for exhausting the sys- tem’s resources locally.
 
 ## Types of External Attacks
 
 The various types of external attack that can occur can be shown as illustrated in Figure 14.4.
 
+![Alt text](image-3.png)
+
 Figure 14.4 Types of External Attack
 
-Sniffing attack
+- Sniffing attack
 
-- This attack is also known as sniffer attack in the context of network security. This attack represents the interception of data by ensnaring the network traffic employing a sniffer.  
+    -- This attack is also known as sniffer attack in the context of network security. This attack represents the interception of data by ensnaring the network traffic employing a sniffer.  
 
  
-- The term sniffer refers to an application aimed at capturing the network packets.
+    -- The term sniffer refers to an application aimed at capturing the network packets.
 
-- Whenever, the data are transferred across the network, if the packets of the data are not at all encrypted, at that very time a sniffer is employed to read the data packets.
+    -- Whenever, the data are transferred across the network, if the packets of the data are not at all encrypted, at that very time a sniffer is employed to read the data packets.
 
-- The attacker can analyse the network and gain the information to eventually cause the concerned network to become corrupted.
+    -- The attacker can analyse the network and gain the information to eventually cause the concerned network to become corrupted.
 
-- Otherwise, it can read the communications prevailing through the network.
+    -- Otherwise, it can read the communications prevailing through the network.
 
-Spoofing
+- Spoofing
 
-- Spoofing refers to the process of impersonating the machine that is authorized in the information interchange with the victim.
+    -- Spoofing refers to the process of impersonating the machine that is authorized in the information interchange with the victim.
 
-- The frequent spoofing example is IP spoofing. Basically, IP spoofing is a tech- nique that is aimed at gaining access to the machines by which an attacker imper- sonates any other machining by making manipulations on the IP packets.
+    -- The frequent spoofing example is IP spoofing. Basically, IP spoofing is a tech- nique that is aimed at gaining access to the machines by which an attacker imper- sonates any other machining by making manipulations on the IP packets.
 
-- It involves modifying the packet header with a forged or spoofed IP address, check sum as well as other values.
+    -- It involves modifying the packet header with a forged or spoofed IP address, check sum as well as other values.
 
-Smurfing
+- Smurfing
 
-- Smurfing is defined as the process of getting access to a secret account that is different from the main document under consideration such that an user can do anything without being detected by any one.
+    -- Smurfing is defined as the process of getting access to a secret account that is different from the main document under consideration such that an user can do anything without being detected by any one.
 
-- Smurfing is the phenomenon of impersonating any sort of victim in communica- tion with remaining machines.
+    -- Smurfing is the phenomenon of impersonating any sort of victim in communica- tion with remaining machines.
 
-Landing
+- Landing
 
-- It is defined as the phenomenon of frauding the victim in communicating with him.
+    -- It is defined as the phenomenon of frauding the victim in communicating with him.
 
-- Various attacks on machines and processes come under such type of attacks.
+    -- Various attacks on machines and processes come under such type of attacks.
 
-Information Theft
+- Information Theft
 
-- This involves the process of taking over the necessary information from various machines.
+    -- This involves the process of taking over the necessary information from various machines.
 
-- There are huge number of information theft affairs found in recent years such as: Credit card Number theft, ATM spoofing, electronic cash theft, database theft, etc.
+    -- There are huge number of information theft affairs found in recent years such as: Credit card Number theft, ATM spoofing, electronic cash theft, database theft, etc.
 
-Denial of Service (DoS)
+- Denial of Service (DoS)
 
-- Denial of Service (DoS) attack refers to a security event which prevails whenever the attacker initiates actions which prevent the legitimate users from getting access to targeted computers under consideration or any other network resources.
+    -- Denial of Service (DoS) attack refers to a security event which prevails whenever the attacker initiates actions which prevent the legitimate users from getting access to targeted computers under consideration or any other network resources.
 
-- Typically, such attacks flood the servers, systems or networks with the traffic so as to overwhelm the victim resources for making it hectic or impossible for the authorized users to access it.
+    -- Typically, such attacks flood the servers, systems or networks with the traffic so as to overwhelm the victim resources for making it hectic or impossible for the authorized users to access it.
 
 The United States Computer Emergency Readiness team (US-CERT) affords various guidelines so as to determine when a DoS attack occurs as follows:  
 
  
-Difficulty in reaching a specific website
+- Difficulty in reaching a specific website
 
-Degradation in the performance of the network
+- Degradation in the performance of the network
 
 Whenever, suspicion arises regarding DoS attack, at that time the organizations or enter- prises contact with their Internet Service Provider (ISP) for checking whether it is owing to DoS attack or due to something else. Afterwards, the ISP assists in mitigating the attack by throttling the malicious traffic employing the load balancers for reducing the impact of at- tacks. Similarly, the feasibility DoS detection can be explored through intrusion prevention systems, intrusion detection systems, etc. Moreover, in Distributed Operating Systems, the network connected devices along with the computer are infected by malware. The various types of DoS attacks are as shown in the Figure 14.5.
+
+![Alt text](image-4.png)
 
 Figure 14.5 Types of DoS attacks
 
@@ -166,21 +172,23 @@ The idea of security policy and the mode that security mechanisms contribute in 
  
 The security policy for Globus includes the following statements:
 
-The environment comprises of number of administrative domains.
+- The environment comprises of number of administrative domains.
 
-Local operations: It represents the operations which are conducted only within a sin- gle domain. These are subjected merely to a local domain security policy.
+- Local operations: It represents the operations which are conducted only within a sin- gle domain. These are subjected merely to a local domain security policy.
 
-Global operations: This represents the operations concerning several domains that requires the concerned initiator to be known in every domain whereever the operation is being conducted.
+- Global operations: This represents the operations concerning several domains that requires the concerned initiator to be known in every domain whereever the operation is being conducted.
 
-Operations between entities in distinct domains need mutual authentication.
+- Operations between entities in distinct domains need mutual authentication.
 
-Local authentication is replaced by Global authentication.
+- Local authentication is replaced by Global authentication.
 
-Controlling access to the resources is mainly subjected merely to local security.
+- Controlling access to the resources is mainly subjected merely to local security.
 
-Users can delegate the right to the processes.
+- Users can delegate the right to the processes.
 
-Credentials can be shared among processes in the same domain.
+- Credentials can be shared among processes in the same domain.
+
+![Alt text](image-5.png)
 
 Figure 14.6 Globus Security Policy Architecture  
 
