@@ -6,17 +6,22 @@ weight: 1
 
 # CYBERSECURITY AT ORGANIZATIONS: A DELPHI PILOT STUDY OF EXPERT OPINIONS ABOUT POLICY AND PROTECTION
 
+***************************************************************
+
 Holly Reitmeier1, Jolanda Tromp2, John Bottoms3
 
-1 State University of New York at Oswego. USA 2 Duy Tan University, Danang, Vietnam 3 FirstStar Systems, USA Emails: holly.reitmeier@oswego.edu, jolanda.tromp@duytan.edu.vn, john@firststarsystems.com
+1 State University of New York at Oswego. USA 
 
-Abstract Cybercrime is becoming more and more prevalent in today’s society and attackers are
+2 Duy Tan University, Danang, Vietnam 
 
-continuously discovering new methods to hack systems. Monitoring and maintaining com- puter network security is a complex process that presents unique challenges. If security is not constantly strengthened, cyber threats have the potential to affect millions of systems, all of which share similar vulnerabilities.
+3 FirstStar Systems, USA Emails: holly.reitmeier@oswego.edu, jolanda.tromp@duytan.edu.vn, john@firststarsystems.com
+
+**Abstract**
+Cybercrime is becoming more and more prevalent in today’s society  and attackers are continuously discovering new methods to hack systems. Monitoring and maintaining com- puter network security is a complex process that presents unique challenges. If security is not constantly strengthened, cyber threats have the potential to affect millions of systems, all of which share similar vulnerabilities.
 
 The issues surrounding cybercrimes are exponentially different than other types of crimes carried out in society. Therefore, federal law enforcement agencies are faced with the difficult task of generating new approaches to combat it. This chapter explores the concepts of cybercrime and cyber-security, presents the statistical impact it is having on organizations, and demonstrates the importance of an effective cyber-security policy man- ual. It also describes the methodology used for this research, analyzes the data provided by expert testimonials, and introduces the development of a new innovative technologi- cal method [Blockchain] to minimize the risk of the cyber world. The analyses cover the extent in which Blockchain applications could help strengthen cyber-security and protect organizations against cyber-attacks, and what kind of research directions are essential for the future.
 
-Keywords: Cybercrime, Cybersecurity, Cyberworld, Blockchain, Delphi
+**Keywords:** Cybercrime, Cybersecurity, Cyberworld, Blockchain, Delphi
 
 Cybersecurity in Parallel and Distributed Computing. Edited by Dac-Nhuong Le et al. Copyright c© 2018 Scrivener Publishing
 
@@ -57,10 +62,7 @@ The aim of this Cyber-Security Pilot Study is to understand cybersecurity profes
 
 ### Methods of Cybersecurity Professionals
 
-It is simply not possible for organizations to prevent all forms of attacks posed by hackers because of the complexity of security challenges. However, it is the responsibility of se- curity professionals to take adequate measures to plan and prepare for cyber-attack crises. Literature on the subject points out that too few individuals are employed at organizations  
-
- 
-to prevent and handle breaches 12. What separates a secure organization from the rest is one that has developed methods to detect attacks as soon as they happen, and one that has the ability to respond immediately to any incidents that occur. Cybersecurity is ex- plained in terms of three triads that describe the objectives of security professionals and their methods 2. They are:
+It is simply not possible for organizations to prevent all forms of attacks posed by hackers because of the complexity of security challenges. However, it is the responsibility of se- curity professionals to take adequate measures to plan and prepare for cyber-attack crises. Literature on the subject points out that too few individuals are employed at organizations to prevent and handle breaches 12. What separates a secure organization from the rest is one that has developed methods to detect attacks as soon as they happen, and one that has the ability to respond immediately to any incidents that occur. Cybersecurity is ex- plained in terms of three triads that describe the objectives of security professionals and their methods 2. They are:
 
 1. Prevent, Detect and Respond
 
@@ -76,7 +78,7 @@ IT is continuously changing and hackers are constantly discovering new ways to b
 
 Business organizations are being exposed to more threats than ever and the data shows that cybercrimes are continuing to intensify. The 2016 Internet Crime Report 8 produced by the United States Federal Bureau of Investigation presents valuable information for organi- zations and cyber-security professionals. Additionally, the 2016 Global Economic Crime Survey prepared by PricewaterhouseCoopers 3 highlights the fundamentally flawed inci- dent response plans the majority of business organizations currently have in place.
 
-## Role of the Internet Crime Complaint Center
+### Role of the Internet Crime Complaint Center
 
 Internet crime is unlike any other type of crime and presents unique challenges that are difficult to detect and deter. Therefore, the Internet Crime Complaint Center (IC3), a multi-agency task force, was developed. It includes members from the Federal Bureau of Investigation (FBI), the National White Collar Crime Center (NW3C), and the Bureau of Justice Assistance (BJA). The IC3’s role in helping to prevent Internet crime is best de- scribed as an intricate puzzle. Each piece is intended to fit together to effectively address the serious risk cybercrime poses to global organizations 8. The nine pieces of the puzzle, which are:
 
@@ -84,7 +86,6 @@ Internet crime is unlike any other type of crime and presents unique challenges 
 
 2. Complaint: statement of distress filed by either actual victim or third party  
 
- 
 3. Mitigation: effort to stop fraud, reduce losses, and attempt recovery
 
 4. Liaison: collaboration with all levels of Law Enforcement
@@ -101,7 +102,8 @@ Internet crime is unlike any other type of crime and presents unique challenges 
 
 In 2016, there were nearly 300,000 complaints received that included over $1.33 Billion in losses 8. Comparing these figures to those from the 2015 report 8, these figures have increased by approximately five-percent from just the previous year. Additionally, the IC3’s Public Value Graph (see Figure 11.1 on the following page) illustrates that losses in monetary amounts were under $1 billion just seven years ago in 2010, and now have surpassed that mark. The bar graph shows the total number of complaints and overall victim losses for the years 2010 to 2016.
 
-Figure 11.1 Internet Crime Complaint Center( IC3) Public Value Overall Statistics 2016
+![Alt text](image.png)
+**Figure 11.1** Internet Crime Complaint Center( IC3) Public Value Overall Statistics 2016
 
 Subsequent sections of the IC3 report more specifically pertain to the purpose of this study, as they present the figures in terms of the various cybercrime types. In 2016, there were nearly 3,500 reports of a corporate data breach, almost 20,000 phishing scheme re- ports, and approximately 2,000 issues regarding currency exchange 8. In comparison, there were almost 1,000 more corporate data breach reports in 2016 than in 2015 8. These numbers corroborate the findings that cybercrime is continuing to escalate.  
 
@@ -116,10 +118,7 @@ Hackers are constantly developing new ways to initiate data leaks. Furthermore, 
 
 ### Organizations: Be Aware, be Secure
 
-There has to be a fundamental understanding that while using the Internet to conduct busi- ness activities has an abundance of advantages, there are serious cyber risks associated with it. It is critical that organizations consider incident handling as a core component  
-
- 
-of cyber defense, and ensure that all the necessary parties involved in protecting critical online assets are working together effectively. The reason why society knows about the cybercrime figures referenced in sections 11.2.2 and 11.2.3 is that they were detected and investigated. Prevention measures taken by the IC3 will only help organizations strengthen their defenses if executives are willing to learn from previous experience. Ultimately, the aim of Internet Crime reports and surveys like the ones mentioned above is to improve the overall security of organizations and avoid costly and damaging incidents in the future. There is no universal solution to combating cybersecurity. However, policies and recom- mendation guidelines have been established to help reduce criminal activity in cyberspace. For an organization, the extent in which cybersecurity policies are effective revolves en- tirely around its Cybersecurity policy manual. The question is what policies have been set forth and what information should be included in the policy manual? The following section contains this vital information.
+There has to be a fundamental understanding that while using the Internet to conduct busi- ness activities has an abundance of advantages, there are serious cyber risks associated with it. It is critical that organizations consider incident handling as a core component of cyber defense, and ensure that all the necessary parties involved in protecting critical online assets are working together effectively. The reason why society knows about the cybercrime figures referenced in sections 11.2.2 and 11.2.3 is that they were detected and investigated. Prevention measures taken by the IC3 will only help organizations strengthen their defenses if executives are willing to learn from previous experience. Ultimately, the aim of Internet Crime reports and surveys like the ones mentioned above is to improve the overall security of organizations and avoid costly and damaging incidents in the future. There is no universal solution to combating cybersecurity. However, policies and recom- mendation guidelines have been established to help reduce criminal activity in cyberspace. For an organization, the extent in which cybersecurity policies are effective revolves en- tirely around its Cybersecurity policy manual. The question is what policies have been set forth and what information should be included in the policy manual? The following section contains this vital information.
 
 ## Cybersecurity Policies for Organizations
 
@@ -144,27 +143,27 @@ Creating and carrying out policies at an organization is highly complex. Therefo
 
 There are various elements that must be adequately addressed for an organization to effectively prevent and protect itself from cyber threats. These include components such as:
 
-Creating a systems access policy.
+- Creating a systems access policy.
 
-Vendor compliance policy.
+- Vendor compliance policy.
 
-System management policy.
+- System management policy.
 
-Email policy.
+- Email policy.
 
-Encryption policy.
+- Encryption policy.
 
-Password management policy.
+- Password management policy.
 
-Backup and recovery policy.
+- Backup and recovery policy.
 
 In today’s business world that has been radically transformed by the IoT, it is vital to an organization’s security over cyberspace to develop an effective policy manual. Organiza- tions should consider hiring cyber-security experts to offer their recommendations on how to create or improve their policy manuals. Whether the policy manual is written internally or with the help of a third party security company it should be written with several goals. These include:
 
-It should define how information (and knowledge) security is accomplished within a company or enterprise including who is responsible for what.
+- It should define how information (and knowledge) security is accomplished within a company or enterprise including who is responsible for what.
 
-It should inform the users that they are a part of that secure system, and that involves responsibilities on their part.
+- It should inform the users that they are a part of that secure system, and that involves responsibilities on their part.
 
-The policy manual should clearly describe what is expected of them, and the conse- quences of allowing breaches to the system.
+- The policy manual should clearly describe what is expected of them, and the conse- quences of allowing breaches to the system.
 
 It is also important to stress that while the goals include halting the leak of information it also includes the forensic of incidents. This means that when a security leak occurs one of the products of the investigation is a set of “Principled documents” that form the basis for litigation. All forms of personal information and Internet correspondence, both internally  
 
@@ -175,11 +174,11 @@ and externally, have value. These need to be protected, just like every other as
 
 It is helpful to consider the three-levels of security classification regarding the evaluation and monitoring of a system. There are levels A, B and C, of security evaluations. These levels are identified by their security as follows:
 
-A: System that is mathematically proven to be secure.
+- A: System that is mathematically proven to be secure.
 
-B: System that has been evaluated for secure policies against best practices.
+- B: System that has been evaluated for secure policies against best practices.
 
-C: System that has not been evaluated.
+- C: System that has not been evaluated.
 
 It is inexcusable for any company or organization in today’s society to fall under a C classification with all the information available regarding the seriousness of cybercrime 5.
 
@@ -187,7 +186,8 @@ It is inexcusable for any company or organization in today’s society to fall u
 
 Cyber-security can be represented as a pyramid illustrating the persistent problems with IT security, data protection and the complexity of the industry. See Figure 11.2 showing the IT and non-IT environment. At the base of pyramid are the Three Laws of Information and Communication Technology (ICT) Security, the middle sections are Testing source code and creating a Reliable login, and at the top is Critical Data.
 
-Figure 11.2 Pyramid of Cyber Security 2017
+![Alt text](image-1.png)
+**Figure 11.2** Pyramid of Cyber Security 2017
 
 The Three Laws of Cybersecurity set rules to prevent editing files by a virus or hackers. The Three Laws of Cybersecurity, are 13:
 
@@ -208,18 +208,16 @@ The underlying concept of Blockchain is that a digital, distributed transaction 
 
 The key characteristics of Blockchain are:
 
-Reliability: the system can continuously run without the fear of shutdown or interrup- tion
+- Reliability: the system can continuously run without the fear of shutdown or interrup- tion
 
-Transparency: all transactions are visible to every member of the Blockchain
+- Transparency: all transactions are visible to every member of the Blockchain
 
-Immutability: it is incredibly difficult to make changes to the Blockchain without detection
+- Immutability: it is incredibly difficult to make changes to the Blockchain without detection
 
-Irrevocability: nature of the Blockchain makes it possible for all transactions to be binding and final  
+- Irrevocability: nature of the Blockchain makes it possible for all transactions to be binding and final  
 
  
-In the past few years, interest in Blockchain technology has substantially increased among researchers, investors and the cybersecurity community. According to Gartner’s technology hype cycle graph, Blockchain technology is at the peak of inflated expectations 1.
-
-With all the hype surrounding Blockchain, millions of dollars are being spent by or- ganizations around the globe in order to experiment and test this new technology. Cap- ital investments into organizations providing Blockchain services have soared from only 3millionin2011tonearly500 million today 18. The ever growing excitement of Blockchain applications is a direct result of the various benefits associated with it. Some of these in- clude decentralized trust (governing principle of the network), transparency (distributed network architecture) and efficiency (transactions can be completed without an interme- diary). Its flexible design gives it the ability to not only impact financial services, but other industries as well. A few of the primary potential industries include Smart Contracts, Automated Auditing, and the one featured in this pilot study, Cybersecurity. Cybersecu- rity has the ability to be vastly strengthened because the nature of the Blockchain enables the immediate detection of data manipulation and verifies the integrity of IT systems 18. However, the literature indicated that there is currently still a lot of uncertainty associated with the technology. Challenges such as regulation and scalability are currently holding up mainstream adoption. Cyber-security experts are currently in the process of performing the necessary research and testing protocols so that Blockchain is ready for adoption in the near future. Just imagine the endless possibilities that could result from this technology if organizations choose to incorporate it into the cybersecurity policy manuals.
+In the past few years, interest in Blockchain technology has substantially increased among researchers, investors and the cybersecurity community. According to Gartner’s technology hype cycle graph, Blockchain technology is at the peak of inflated expectations [1].With all the hype surrounding Blockchain, millions of dollars are being spent by or- ganizations around the globe in order to experiment and test this new technology. Cap- ital investments into organizations providing Blockchain services have soared from only 3millionin2011tonearly500 million today 18. The ever growing excitement of Blockchain applications is a direct result of the various benefits associated with it. Some of these in- clude decentralized trust (governing principle of the network), transparency (distributed network architecture) and efficiency (transactions can be completed without an interme- diary). Its flexible design gives it the ability to not only impact financial services, but other industries as well. A few of the primary potential industries include Smart Contracts, Automated Auditing, and the one featured in this pilot study, Cybersecurity. Cybersecu- rity has the ability to be vastly strengthened because the nature of the Blockchain enables the immediate detection of data manipulation and verifies the integrity of IT systems 18. However, the literature indicated that there is currently still a lot of uncertainty associated with the technology. Challenges such as regulation and scalability are currently holding up mainstream adoption. Cyber-security experts are currently in the process of performing the necessary research and testing protocols so that Blockchain is ready for adoption in the near future. Just imagine the endless possibilities that could result from this technology if organizations choose to incorporate it into the cybersecurity policy manuals.
 
 ## Research Methodology
 
@@ -229,7 +227,7 @@ The focus is on expert opinions regarding cybersecurity and the future of Blockc
 
 ### Quantitative and Qualitative Data Collection
 
-The research conducted for the study reported here, applies a Delphi style survey. A combi- nation of quantitative scales and qualitative open-ended responses are utilized to collect the information. The primary information is obtained through the survey that is distributed to elicit the anonymous opinions of the experts, after requesting permission to do so (see 16 for details of the survey). The secondary information is compiled from a variety of sources including literature, journals and articles. The Delphi Method originated in the American business community, and has since been widely accepted globally in many industry sec- tors including health care, defense, business, education, and information technology 17.  
+The research conducted for the study reported here, applies a Delphi style survey. A combi- nation of quantitative scales and qualitative open-ended responses are utilized to collect the information. The primary information is obtained through the survey that is distributed to elicit the anonymous opinions of the experts, after requesting permission to do so (see 16 for details of the survey). The secondary information is compiled from a variety of sources including literature, journals and articles. The Delphi Method originated in the American business community, and has since been widely accepted globally in many industry sec- tors including health care, defense, business, education, and information technology [17].  
 
  
 One of the unique values of the Delphi method is that it facilitates a dialog that shares knowledge and considerations among participants as they work toward a collaborative re- sponse to the questions. The net result of this is that that in the majority of uses of the Delphi method, the group’s results are better than that of most participants. Therefore, it is believed that as knowledge engineering systems evolve which are used in global collab- orative projects, the Delphi style survey will play an important part of working towards consensus. It is used in this Cyber-Security Pilot Study to collect and analyze the opinions of cyber-security experts using a survey interspersed with feedback.
@@ -238,7 +236,7 @@ One of the unique values of the Delphi method is that it facilitates a dialog th
 
 The design of this study is based on deductive reasoning. A deductive approach is applied, which means that a hypothesis was developed from an existing proposition and then a research strategy was designed to test the hypothesis. Information is collected from cyber- security experts regarding the following hypothesis.
 
-H1: Use of Blockchain applications will help to strengthen cyber-security and protect organizations against cyber-attacks.
+**H1:** Use of Blockchain applications will help to strengthen cyber-security and protect organizations against cyber-attacks.
 
 The target population of this research is comprised of cyber-security experts, which is defined as individuals who work(ed) in cyber-security or a related IT field for a minimum of three years. This information was part of the Screening Questions, as listed in Ex- pert Respondent Sufficiency & Qualifications, 16. The sample consists of professionals that work in the industry with jobs relating to cybersecurity policy initiatives, and devel- oping technologies available to protect organizations from cyber threats. Ten potential respondents recruited from networking events, university connections and LinkedIn were approached via a carefully crafted email see 16 for the survey invitation. At the end of the invitation, participants who wished to have the results of the pilot study shared with them had the option to provide an email address. Prior to participating in the Online Cy- bersecurity Survey, the eight respondents were ensured of their complete anonymity.
 
@@ -252,10 +250,7 @@ The original Delphi method was developed by Norman Dalkey of the RAND Corporatio
 
 3. The Delphi method size requirements are modest. The method can be utilized with as few as two respondents 14.
 
-The sample size of this study contained eight expert respondents. Within the scope and time limitations of this pilot study, this sample size was considered commendable. It is  
-
- 
-important to bear in mind that this is a pilot study; the aim is to test the format and provide the feasibility for a much larger version.
+The sample size of this study contained eight expert respondents. Within the scope and time limitations of this pilot study, this sample size was considered commendable. It is important to bear in mind that this is a pilot study; the aim is to test the format and provide the feasibility for a much larger version.
 
 ### Procedure of Utilization of the Delphi Method
 
@@ -273,14 +268,11 @@ In terms of this pilot study, the purpose of the first round is to gain a basic 
 
 ### Delphi Activities [Iteration Rounds] of this Pilot Study
 
-1. Round #1: Initial collection. The first survey is distributed on the same day that the expert agrees to serve as a respondent to the survey. The survey contains a series of varying complexity level questions, each corresponding to the research proposition. The researcher requests permission to collect richer data by means of second round open-ended follow-up questions. After gaining approval, this leads to the second round of the Delphi Method.
+1. **Round #1: Initial collection.** The first survey is distributed on the same day that the expert agrees to serve as a respondent to the survey. The survey contains a series of varying complexity level questions, each corresponding to the research proposition. The researcher requests permission to collect richer data by means of second round open-ended follow-up questions. After gaining approval, this leads to the second round of the Delphi Method.
 
-2. Round #2: Richer data collection. The Delphi study is flexible in its design, which allows for the second round of follow-up questions in this study. The goal is to un- derstand the importance and narrow in on the scope of the responses based on the  
+2. **Round #2: Richer data collection.** The Delphi study is flexible in its design, which allows for the second round of follow-up questions in this study. The goal is to un- derstand the importance and narrow in on the scope of the responses based on the differing perspectives. The respondents are asked to review the key findings compiled by the researcher based upon the responses provided in Round #1. As a result, this provides more concise and richer data because of an additional iteration and partici- pant response revision due to feedback.
 
- 
-differing perspectives. The respondents are asked to review the key findings compiled by the researcher based upon the responses provided in Round #1. As a result, this provides more concise and richer data because of an additional iteration and partici- pant response revision due to feedback.
-
-3. Final analysis. The goal of the final phase of the study is to reach a consensus and analyze the major themes to see as to whether or not the research proposition in this pilot study is validated. The researcher uses information provided in both the first and second round to categorize, code, and identify themes among the responses.
+3. **Final analysis.** The goal of the final phase of the study is to reach a consensus and analyze the major themes to see as to whether or not the research proposition in this pilot study is validated. The researcher uses information provided in both the first and second round to categorize, code, and identify themes among the responses.
 
 This Cyber-Security Pilot Study 16, is exploratory in nature. It aims to explore a topic in which the research proposition being evaluated has no clear, single set of outcomes. It involves incrementally developing deep understanding through the collection of multiple types of data about the complex issues organizations in today’s business world face with regards to cybercrime.
 
@@ -294,37 +286,42 @@ The results were collected over a period of four weeks, and vary in type with ea
 
 In the first round, eight experts responded to a series of quantitative and qualitative ques- tions relating to cybersecurity and Blockchain technology. Four distinct findings emerged from the experts in round one. These are described below.
 
-**11.6.1.1 Expert Level Awareness of Cyber-Security** 62.5% respondents are ”Very aware” of cybersecurity and the remaining 37.5% are Mod-
+### 11.6.1.1 Expert Level Awareness of Cyber-Security
 
-erately aware (see Figure 11.3). Therefore, the researcher sought to investigate what each expert would recommend in regards to creating a cybersecurity policy.
+62.5% respondents are ”Very aware” of cybersecurity and the remaining 37.5% are Moderately aware (see Figure 11.3). Therefore, the researcher sought to investigate what each expert would recommend in regards to creating a cybersecurity policy.
 
-**11.6.1.2 Cyber Incident Response Plan** As shown in Figure 11.4, 75% of 8 respondents either Strongly Disagree or Disagree that
+### 11.6.1.2 Cyber Incident Response Plan
 
-the majority of organizations have an effective cyber incident response plan. Therefore, the researcher sought to determine what each expert believes should be done to correct this.  
+As shown in Figure 11.4, 75% of 8 respondents either Strongly Disagree or Disagree that the majority of organizations have an effective cyber incident response plan. Therefore, the researcher sought to determine what each expert believes should be done to correct this.  
 
- 
-Figure 11.3 Expert-Level-Awareness of Cybersecurity
+ ![Alt text](image-2.png)
+**Figure 11.3** Expert-Level-Awareness of Cybersecurity
 
-Figure 11.4 Effective Incident Response Plans
+![Alt text](image-3.png)
+**Figure 11.4** Effective Incident Response Plans
 
-**11.6.1.3 Federal Government Cybersecurity Initiatives** As shown in Figure 11.5, 62.5% of respondents believe that federal governments need
+### 11.6.1.3 Federal Government Cybersecurity Initiatives
+
+As shown in Figure 11.5, 62.5% of respondents believe that federal governments need
 
 to improve cyber-security initiatives. Therefore, the researcher sought to examine what measures governments should take in this regard.
 
-Figure 11.5 Federal Government Cybersecurity Initiatives
+![Alt text](image-4.png)
+**Figure 11.5** Federal Government Cybersecurity Initiatives
 
-**11.6.1.4 Blockchain Secure Internet Transactions** 75% of respondents believe that using a technology like Blockchain is a more secure  
+**11.6.1.4 Blockchain Secure Internet Transactions** 
 
- 
-method than using intermediaries to complete Internet transactions (See Figure 11.6 below and in Reitmeier, 2017). Therefore, the researcher sought to determine why Blockchain would or wouldn’t help to strengthen an organization’s cyber-security policy manual.
+75% of respondents believe that using a technology like Blockchain is a more secure method than using intermediaries to complete Internet transactions (See Figure 11.6 below and in Reitmeier, 2017). Therefore, the researcher sought to determine why Blockchain would or wouldn’t help to strengthen an organization’s cyber-security policy manual.
 
-Figure 11.6 Blockchain Secure Internet Transactions
+![Alt text](image-5.png)
+**Figure 11.6** Blockchain Secure Internet Transactions
 
 ### Results of Round Two
 
 Six of the initial round respondents agreed to participate in the second round of open-ended questions. For the second round, the major findings from Round 1 were summarized and the four key insights were presented to the respondents (see Table 11.6.2). The findings were revealed via email to the six respondents who agreed to review the updated survey statements.
 
-Table 11.1 The major findings from Round 1 and the 4 key insights presented to the respondents.
+**Table 11.1**  The major findings from Round 1 and the 4 key insights presented to the respondents.
+![Alt text](image-6.png)
 
 The top four findings were structured into open-ended questions for the experts to re- spond to (see for more detailReitmeier (2017) and these were sent to them via email. The experts were asked to be as specific as possible answering the following questions:
 
@@ -339,18 +336,21 @@ The top four findings were structured into open-ended questions for the experts 
 
 The feedback from the open-ended questions are noted in Tables 11.6.2 to 11.6.2. Re- sponses were categorized and coded so that the major themes could be identified and cat- egorized by the researcher. The full expert responses used for the inductive analysis is provided in the appendices of 16.
 
-Table 11.2 Cyber-Security Policy within an Organization
+**Table 11.2** Cyber-Security Policy within an Organization
+![Alt text](image-7.png)
 
-Table 11.3 Effective Cyber Incident Response Plan Mandates
+**Table 11.3** Effective Cyber Incident Response Plan Mandates
+![Alt text](image-8.png)
 
-Table 11.4 Federal Government Cyber-Security Initiatives  
-
+**Table 11.4** Federal Government Cyber-Security Initiatives  
+![Alt text](image-9.png)
  
-Table 11.5 Blockchain Technology for Secure Internet Transactions
+**Table 11.5** Blockchain Technology for Secure Internet Transactions
+![Alt text](image-10.png)
 
 After the findings were categorized and coded, it allowed for the themes to be identified. The following section highlights the key themes that emerged from the research.
 
-Question #1: If you were in charge of setting the cyber-security policy for an organiza- tion, what would you do, specifically, to reduce the vulnerability of online data and protect data integrity?
+**Question #1:** If you were in charge of setting the cyber-security policy for an organiza- tion, what would you do, specifically, to reduce the vulnerability of online data and protect data integrity?
 
 Five different themes developed from this question, and are presented below:
 
@@ -364,7 +364,7 @@ Five different themes developed from this question, and are presented below:
 
 5. Training on security fundamentals.
 
-Question #2: What should be done to encourage and/or mandate organizations to cre- ate and implement an effective cyber incident response plan?
+**Question #2:** What should be done to encourage and/or mandate organizations to cre- ate and implement an effective cyber incident response plan?
 
 Three themes developed from this question, and are presented below:
 
@@ -376,11 +376,10 @@ Three themes developed from this question, and are presented below:
 
 Survey respondent Z is quoted of saying, Professional associations should be encour- aged to develop approaches that are beneficial to all members. This would reduce costs and aggregate risk analysis across the group.
 
-Question #3: What measures should be taken by federal governments to improve cyber- security standards?
+**Question #3:** What measures should be taken by federal governments to improve cyber- security standards?
 
 Three themes developed in response from the experts in relation to the third question.  
 
- 
 1. New communication protocols need to be established and enforced such as encryption of communication devices.
 
 2. The SIPRnet approach needs to be modified and adapted for use within the U.S.
@@ -389,7 +388,7 @@ Three themes developed in response from the experts in relation to the third que
 
 Two of the experts summarized the scope of the question copiously. The responses mentioned that the Department of Homeland Security has to become more involved and should be encouraged to work with industry to develop robust approaches to corporate security.
 
-Question #4: Please provide justification as to why you believe or do not believe the use of Blockchain applications would help to strengthen the cyber-security policy at an organization.
+**Question #4:** Please provide justification as to why you believe or do not believe the use of Blockchain applications would help to strengthen the cyber-security policy at an organization.
 
 Five major themes developed from the final question.
 
@@ -424,14 +423,14 @@ Ultimately, there are new technologies becoming available that offer the ability
 
 Cybercrime has become a global phenomenon, and as shown, is immensely disrupting to the world of business. As the Internet of Things, Virtual and Augmented reality, and Artifi- cial Intelligence continue to advance, organizations will be fundamentally revolutionized. They will face serious challenges while trying to adapt and optimize the integration of these new technologies with employees, and the cyber-security policies at the organization. Ac- cording to Edward Hess, a top authority on organizational and human high performance at the University of Virginia, organizations are expected to undergo critical transformations 9. They are in four areas:
 
-Technology: integrating new technologies and data analytics into every part of the organization
+- Technology: integrating new technologies and data analytics into every part of the organization
 
-Systematic Redesign: creating a technology-enabled Human Excellence System  
+- Systematic Redesign: creating a technology-enabled Human Excellence System  
 
  
-Leadership: developing a new model of how to lead and manage others
+- Leadership: developing a new model of how to lead and manage others
 
-Human Resource: transforming human resources functions into human development functions
+- Human Resource: transforming human resources functions into human development functions
 
 As a result, measures must be taken to overcome the challenges the transformations present and keep the threats they pose to the cyber-security at the organization to the bare minimum. Hess stated that, The Smart Machine Age will be more disruptive than the Industrial Revolution because of its scope, scale, and the power and quality of what the technology can do (Hess, 2017). Consequently, to protect e-commerce transactions and increase economic gains through cyberspace, continuous research is needed to control and prevent the associated cybercrime activities. The literature in the cyber-security field is aimed to discover the truth behind cybercrime, expose the alarming statistics, and point out that many organizations have fundamentally flawed cyber-security policy manuals or do not have one at all.
 
@@ -443,14 +442,11 @@ There is a severe lack of monitoring mechanisms and skilled personnel in cyber-s
 
 ### Next Steps for Future Research
 
-There is a high anticipation that Blockchain technology will have the ability to transform the way business is conducted. Arvind Krishna, senior vice president at IBM Research, stated that 4:
+There is a high anticipation that Blockchain technology will have the ability to transform the way business is conducted. Arvind Krishna, senior vice president at IBM Research, stated that [4]:
 
 Over the past two decades, the internet has revolutionized many aspects of business and society Blockchain could bring to those processes the openness and efficiency we have come to expect in the internet era.
 
-Further investigation of Blockchain is necessary, but there is a growing expectancy that it will be extremely beneficial for organizations. It is predicted to considerably reduce the probability of an organization being hacked, and substantially improve its cybersecurity. Although predictions can be made, there is no way of knowing exactly what the future  
-
- 
-has in store for the cyber-security industry. One can only hope that within the next few years, technologies such as Blockchain will undergo the necessary testing phases, and that organizations begin to implement strong encryption technology to secure their data.
+Further investigation of Blockchain is necessary, but there is a growing expectancy that it will be extremely beneficial for organizations. It is predicted to considerably reduce the probability of an organization being hacked, and substantially improve its cybersecurity. Although predictions can be made, there is no way of knowing exactly what the future has in store for the cyber-security industry. One can only hope that within the next few years, technologies such as Blockchain will undergo the necessary testing phases, and that organizations begin to implement strong encryption technology to secure their data.
 
 Future research is highly recommended to address the question: “How can cyber- security experts piece together the information and technologies available to make cy- berspace more secure than it is currently?” Pilot studies like the one in this account do not have the ability to eliminate cybercrime, nor can they guarantee cybersecurity for all. How- ever, continuous research in the field will inspire innovative and progressive thinking, and create a world where more organizations are conscious of their cybersecurity initiatives. When society as a whole becomes willing and enabled to take adequate action against cyber threats, the Internet will become a better and safer place to conduct business.
 
