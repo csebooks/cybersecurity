@@ -25,18 +25,18 @@ hugo server --themesDir ../
 - WAF
 - API GW, Application Gateway, Load Balancer
 
-**Searching Content**
+## Searching Content
 
-## IAM
-okta
-Azure AD
-Active Directory
-PingIdentity
+### IAM
+- okta
+- Azure AD
+- Active Directory
+- PingIdentity
 
-## Software Development
-CheckMarx
-WebInspect
-ModSecurity
+### Software Development
+- CheckMarx
+- WebInspect
+- ModSecurity
 
 ### Certifications - CISSP/CISA/CISM
   
