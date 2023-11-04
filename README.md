@@ -19,11 +19,11 @@ hugo server --themesDir ../
 
 ## Domain2: Software Development Security
 
-- Secure coding, SAST, DAST, IAST, SCA, OWASP Top 10 Web, API, Mobile
+- Secure coding, SAST, DAST, IAST, SCA, OWASP Top 10 Web, API, Mobile(Secure Software Development and Testing Practices)
 - CI/CD Pipeline security
 - DevSecOps
 - web application firewall(WAF)
-- API GW, Application Gateway, Load Balancer
+- API GW, Application Gateway, Load Balancer(Networking and Traffic Management)
 
 ## Searching Content
 
