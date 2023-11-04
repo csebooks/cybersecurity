@@ -11,10 +11,10 @@ hugo server --themesDir ../
 - Identity Governance
 - Access Management
 - Privileged Access Management
-- MFA
+- Multi-factor authentication(MFA)
 - Passwordless authentication
 - SAML / OAUTH / OIDC 2.0
-- CIAM
+- Customer Identity and Access Management(CIAM)
 
 
 ## Domain2: Software Development Security
@@ -22,12 +22,12 @@ hugo server --themesDir ../
 - Secure coding, SAST, DAST, IAST, SCA, OWASP Top 10 Web, API, Mobile
 - CI/CD Pipeline security
 - DevSecOps
-- WAF
+- web application firewall(WAF)
 - API GW, Application Gateway, Load Balancer
 
 ## Searching Content
 
-### IAM
+### identity and access management(IAM)
 - okta
 - Azure AD
 - Active Directory
