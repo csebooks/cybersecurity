@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Data collection'
 weight: 3
 ---
 

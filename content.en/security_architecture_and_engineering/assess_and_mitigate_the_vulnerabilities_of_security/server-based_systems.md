@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Server-based systems'
 weight: 3
 ---
 

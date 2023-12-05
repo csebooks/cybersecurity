@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Scoping and tailoring'
 weight: 3
 ---
 

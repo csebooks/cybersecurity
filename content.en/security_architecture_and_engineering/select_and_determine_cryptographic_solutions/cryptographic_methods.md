@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Cryptographic methods'
 weight: 3
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Asset inventory'
 weight: 3
 ---
 

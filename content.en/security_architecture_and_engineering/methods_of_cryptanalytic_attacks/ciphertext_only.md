@@ -1,5 +1,5 @@
 ---
-title: 'Security Architecture and Engineering'
+title: 'Ciphertext only'
 weight: 3
 ---
 
