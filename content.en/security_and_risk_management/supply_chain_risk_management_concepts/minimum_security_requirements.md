@@ -1,6 +1,6 @@
 ---
 title: 'Minimum security requirements'
-weight: 4
+weight: 3
 ---
 
 # Content Will be Added Soon

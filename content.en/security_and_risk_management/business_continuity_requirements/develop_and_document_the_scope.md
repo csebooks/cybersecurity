@@ -1,6 +1,6 @@
 ---
 title: 'Develop and document the scope and the plan'
-weight: 3
+weight: 2
 ---
 
 # Content Will be Added Soon

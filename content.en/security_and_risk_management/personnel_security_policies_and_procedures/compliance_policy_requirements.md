@@ -1,6 +1,6 @@
 ---
 title: 'Compliance policy requirements'
-weight: 6
+weight: 5
 ---
 
 # Content Will be Added Soon

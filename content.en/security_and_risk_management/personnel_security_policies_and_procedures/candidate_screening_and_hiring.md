@@ -1,6 +1,6 @@
 ---
 title: 'Candidate screening and hiring'
-weight: 2
+weight: 1
 ---
 
 # Content Will be Added Soon
