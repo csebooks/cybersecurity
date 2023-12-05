@@ -1,6 +1,6 @@
 ---
 title: 'Ransomware'
-weight: 14
+weight: 13
 ---
 
 # Content Will be Added Soon

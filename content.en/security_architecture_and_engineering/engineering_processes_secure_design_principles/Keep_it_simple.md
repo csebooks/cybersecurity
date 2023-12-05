@@ -1,6 +1,6 @@
 ---
-title: 'Fail securely'
-weight: 6
+title: 'Keep it simple'
+weight: 7
 ---
 
 # Content Will be Added Soon

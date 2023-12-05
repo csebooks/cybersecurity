@@ -1,6 +1,6 @@
 ---
 title: 'Ensure appropriate asset retention'
-weight: 1
+weight: 5
 ---
 
 # Content Will be Added Soon

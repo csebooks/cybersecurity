@@ -1,6 +1,6 @@
 ---
 title: 'Key management practices'
-weight: 5
+weight: 4
 ---
 
 # Content Will be Added Soon

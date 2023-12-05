@@ -1,6 +1,6 @@
 ---
 title: 'Understand security capabilities of Information Systems'
-weight: 1
+weight: 4
 ---
 
 # Content Will be Added Soon

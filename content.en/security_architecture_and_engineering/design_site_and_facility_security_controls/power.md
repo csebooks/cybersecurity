@@ -1,6 +1,6 @@
 ---
 title: 'Power'
-weight: 10
+weight: 9
 ---
 
 # Content Will be Added Soon

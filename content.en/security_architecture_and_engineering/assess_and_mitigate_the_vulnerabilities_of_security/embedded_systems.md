@@ -1,6 +1,6 @@
 ---
 title: 'Embedded systems'
-weight: 13
+weight: 12
 ---
 
 # Content Will be Added Soon

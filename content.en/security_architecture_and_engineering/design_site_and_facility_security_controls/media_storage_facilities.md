@@ -1,6 +1,6 @@
 ---
 title: 'Media storage facilities'
-weight: 4
+weight: 3
 ---
 
 # Content Will be Added Soon

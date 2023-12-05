@@ -1,6 +1,6 @@
 ---
-title: 'Secure defaults'
-weight: 5
+title: 'Least privilege'
+weight: 2
 ---
 
 # Content Will be Added Soon

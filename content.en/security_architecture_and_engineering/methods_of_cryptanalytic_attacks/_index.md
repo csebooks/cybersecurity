@@ -1,6 +1,6 @@
 ---
 title: 'Understand methods of cryptanalytic attacks'
-weight: 1
+weight: 7
 ---
 
 # Content Will be Added Soon

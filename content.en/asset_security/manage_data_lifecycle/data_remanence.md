@@ -1,6 +1,6 @@
 ---
 title: 'Data remanence'
-weight: 7
+weight: 6
 ---
 
 # Content Will be Added Soon

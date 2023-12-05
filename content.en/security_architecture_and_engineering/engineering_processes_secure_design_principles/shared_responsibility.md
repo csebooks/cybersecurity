@@ -1,6 +1,6 @@
 ---
 title: 'Shared Responsibility'
-weight: 12
+weight: 11
 ---
 
 # Content Will be Added Soon

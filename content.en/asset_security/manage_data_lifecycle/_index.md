@@ -1,6 +1,6 @@
 ---
 title: 'Manage data lifecycle'
-weight: 1
+weight: 4
 ---
 
 # Content Will be Added Soon

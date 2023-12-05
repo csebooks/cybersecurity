@@ -1,6 +1,6 @@
 ---
 title: 'Asset Classification'
-weight: 3
+weight: 2
 ---
 
 # Content Will be Added Soon

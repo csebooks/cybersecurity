@@ -1,6 +1,6 @@
 ---
 title: 'Provision resources securely'
-weight: 1
+weight: 3
 ---
 
 # Content Will be Added Soon

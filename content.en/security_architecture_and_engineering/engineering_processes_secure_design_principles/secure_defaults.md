@@ -1,6 +1,6 @@
 ---
-title: 'Trust but verify'
-weight: 11
+title: 'Secure defaults'
+weight: 4
 ---
 
 # Content Will be Added Soon

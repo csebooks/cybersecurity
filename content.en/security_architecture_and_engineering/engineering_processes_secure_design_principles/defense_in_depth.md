@@ -1,5 +1,5 @@
 ---
-title: 'Least privilege'
+title: 'Defense in depth'
 weight: 3
 ---
 

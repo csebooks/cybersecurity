@@ -1,6 +1,6 @@
 ---
 title: 'Edge computing systems'
-weight: 15
+weight: 14
 ---
 
 # Content Will be Added Soon

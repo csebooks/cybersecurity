@@ -1,6 +1,6 @@
 ---
 title: 'Cryptographic life cycle'
-weight: 2
+weight: 1
 ---
 
 # Content Will be Added Soon
