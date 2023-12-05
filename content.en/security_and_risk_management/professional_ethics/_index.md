@@ -1,5 +1,5 @@
 ---
-title: 'Professional Ethics'
+title: 'Understand, adhere to, and promote professional ethics'
 weight: 1
 ---
 
